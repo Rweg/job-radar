@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Toussaint Rwego's source-backed job opportunity radar.">
+  <title>Job Radar | Toussaint Rwego</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="./" aria-label="Job Radar home">
+        <span class="brand-mark">JR</span>
+        <span>
+          <strong>Job Radar</strong>
+          <small>Toussaint Rwego</small>
+        </span>
+      </a>
+      <div class="header-actions">
+        <span class="verified">Verified <time id="verified-date">18 Aug 2026</time></span>
+        <button class="button button-quiet" id="export-button" type="button">Export saved</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="hero" aria-labelledby="page-title">
+      <div>
+        <p class="eyebrow">Jobs only · Source-backed · Built around your actual experience</p>
+        <h1 id="page-title">Find work where systems, data, and real operations meet.</h1>
+        <p class="hero-copy">A focused shortlist across Rwanda, worldwide remote work, North America, Europe, and selected African opportunities. Technical fit and work eligibility stay separate so a strong match is never mistaken for a guaranteed relocation path.</p>
+      </div>
+      <div class="profile-strip" aria-label="Profile fit areas">
+        <span>UAV & autonomy</span>
+        <span>ML data & annotation</span>
+        <span>Python / SQL / Databricks</span>
+        <span>QA & automation</span>
+        <span>Technical operations</span>
+      </div>
+    </section>
+
+    <section class="metrics" aria-label="Opportunity summary">
+      <div class="metric"><strong id="metric-open">0</strong><span>active jobs</span></div>
+      <div class="metric"><strong id="metric-high-fit">0</strong><span>high-fit matches</span></div>
+      <div class="metric"><strong id="metric-rwanda">0</strong><span>Rwanda / Africa</span></div>
+      <div class="metric"><strong id="metric-saved">0</strong><span>saved by you</span></div>
+    </section>
+
+    <section class="toolbar" aria-label="Search and filter opportunities">
+      <label class="search-field">
+        <span class="sr-only">Search jobs</span>
+        <input id="search-input" type="search" placeholder="Search title, employer, skill, or location">
+      </label>
+      <label>
+        <span class="sr-only">Filter by status</span>
+        <select id="status-filter">
+          <option value="active">Active only</option>
+          <option value="all">All records</option>
+          <option value="watch">Watchlist</option>
+          <option value="closed">Closed</option>
+        </select>
+      </label>
+      <label>
+        <span class="sr-only">Filter by geography</span>
+        <select id="location-filter">
+          <option value="all">All locations</option>
+          <option value="rwanda">Rwanda</option>
+          <option value="africa">Africa</option>
+          <option value="remote">Worldwide remote</option>
+          <option value="canada">Canada</option>
+          <option value="usa">United States</option>
+          <option value="europe">Europe</option>
+        </select>
+      </label>
+      <label>
+        <span class="sr-only">Filter by career family</span>
+        <select id="family-filter">
+          <option value="all">All career families</option>
+          <option value="uav">UAV / autonomy</option>
+          <option value="ml-data">ML data / annotation</option>
+          <option value="mlops">MLOps / production AI</option>
+          <option value="testing">Testing / reliability</option>
+          <option value="leadership">Technical leadership</option>
+          <option value="data">Data / reporting</option>
+        </select>
+      </label>
+      <label>
+        <span class="sr-only">Filter by eligibility</span>
+        <select id="eligibility-filter">
+          <option value="all">Any work-right status</option>
+          <option value="likely">Likely practical from Rwanda</option>
+          <option value="conditional">Eligibility conditional</option>
+          <option value="unknown">Needs verification</option>
+        </select>
+      </label>
+    </section>
+
+    <div class="content-grid">
+      <aside class="sidebar">
+        <div class="sidebar-block">
+          <p class="sidebar-label">Saved views</p>
+          <button class="view-button is-selected" data-view="priority" type="button">Apply / prepare first <span id="priority-count">0</span></button>
+          <button class="view-button" data-view="remote" type="button">Worldwide remote</button>
+          <button class="view-button" data-view="rwanda" type="button">Rwanda & Africa</button>
+          <button class="view-button" data-view="conditional" type="button">Strong fit, verify work rights</button>
+          <button class="view-button" data-view="saved" type="button">Saved jobs <span id="saved-count">0</span></button>
+        </div>
+        <div class="sidebar-block guidance">
+          <p class="sidebar-label">How to use each record</p>
+          <p>Open the source first. Save only roles you would genuinely pursue. Then use the preparation panel to turn your existing evidence into a role-specific application.</p>
+          <p class="muted">No application is submitted from this site. Work authorization, sponsorship, salary, and closing dates must be confirmed on the employer page.</p>
+        </div>
+        <div class="sidebar-block source-note">
+          <p class="sidebar-label">Coverage</p>
+          <p id="source-summary">Checking source registry...</p>
+          <a href="docs/update-guide.md">Read the update guide</a>
+        </div>
+      </aside>
+
+      <section class="results" aria-live="polite">
+        <div class="results-heading">
+          <div>
+            <p class="eyebrow">Shortlist</p>
+            <h2 id="results-title">Best current matches</h2>
+          </div>
+          <span class="result-count" id="result-count">0 jobs</span>
+        </div>
+        <div class="job-list" id="job-list"></div>
+        <div class="empty-state" id="empty-state" hidden>
+          <h3>No roles match this view.</h3>
+          <p>Try clearing a filter or switch to “All records.” A role can be a strong technical match and still be held in the watchlist while work authorization is unresolved.</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <dialog class="job-dialog" id="job-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-header">
+      <div>
+        <p class="eyebrow" id="dialog-company"></p>
+        <h2 id="dialog-title"></h2>
+        <p class="dialog-subtitle" id="dialog-location"></p>
+      </div>
+      <button class="icon-button" id="close-dialog" type="button" aria-label="Close details">×</button>
+    </div>
+    <div class="dialog-body" id="dialog-body"></div>
+  </dialog>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <p>Private working dashboard. Opportunity facts are sourced from public employer or job-provider pages; personal application notes stay in your browser.</p>
+      <a href="https://github.com/Rweg/job-applications" rel="noreferrer">Repository</a>
+    </div>
+  </footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>

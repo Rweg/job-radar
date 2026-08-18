@@ -1,0 +1,1664 @@
+{
+  "verifiedAt": "18 Aug 2026",
+  "profile": {
+    "headline": "Electronics and telecommunications engineer moving across autonomous systems, AI data operations, automation, and technical delivery.",
+    "fitAreas": [
+      "UAV and autonomy",
+      "ML data and annotation",
+      "Python and SQL",
+      "Databricks and data pipelines",
+      "QA and testing",
+      "technical operations",
+      "team leadership"
+    ]
+  },
+  "jobs": [
+    {
+      "id": "canonical-mlops-field-engineer",
+      "company": "Canonical",
+      "title": "MLOps Field Engineer",
+      "status": "active",
+      "fitScore": 94,
+      "eligibility": "likely",
+      "location": "Home based - Worldwide",
+      "locationFilters": [
+        "remote"
+      ],
+      "workMode": "Remote",
+      "deadline": "Rolling; no closing date published",
+      "compensation": "Location and experience based; not published",
+      "workRights": "The listing says teams can accommodate candidates from almost any country. Confirm the Rwanda employment arrangement during screening.",
+      "families": [
+        "MLOps",
+        "Python",
+        "cloud",
+        "technical delivery"
+      ],
+      "familyFilters": [
+        "mlops",
+        "leadership"
+      ],
+      "skills": [
+        "Python",
+        "Linux",
+        "Kubernetes",
+        "Kubeflow",
+        "MLflow",
+        "cloud",
+        "customer-facing delivery"
+      ],
+      "whyFit": "This is the clearest international-remote match: it combines Python, Linux, Kubernetes, data engineering, ML deployment, customer-facing technical work, and practical delivery across cloud environments.",
+      "evidence": [
+        "Python automation and data-analysis work",
+        "Databricks and SQL workflow experience",
+        "QA, documentation, and operational problem-solving",
+        "Ability to explain technical systems to non-specialist stakeholders"
+      ],
+      "gaps": [
+        "Show hands-on Kubernetes and cloud deployment depth with a small public-safe project",
+        "Prepare concrete examples of customer-facing technical delivery"
+      ],
+      "prep": {
+        "resume": [
+          "Lead with automation, data pipelines, Linux, Python, and operational reliability",
+          "Use a short systems-delivery achievement before annotation-specific detail"
+        ],
+        "proof": [
+          "A sanitized MLOps project with Docker and Kubernetes manifests",
+          "A one-page architecture diagram and deployment notes"
+        ],
+        "refresh": [
+          "Kubernetes operators and troubleshooting",
+          "Kubeflow, MLflow, Feast, DVC, and cloud networking basics"
+        ],
+        "interview": [
+          "Design an ML platform for a high-volume workload",
+          "Debug a failed Kubernetes deployment",
+          "Explain a technical tradeoff to a customer"
+        ],
+        "next": [
+          "Confirm whether Canonical can employ you from Rwanda",
+          "Tailor the CV around MLOps and customer-facing delivery",
+          "Write application answers in your own words"
+        ]
+      },
+      "sourceLabel": "Canonical careers",
+      "sourceUrl": "https://canonical.com/careers/6783943/mlops-field-engineer-remote",
+      "applyUrl": "https://canonical.com/careers/6783943/mlops-field-engineer-remote",
+      "lastVerified": "2026-08-18",
+      "sourceNote": "Canonical's form asks for original, candidate-written answers. Use the preparation panel as prompts, not paste-ready text."
+    },
+    {
+      "id": "canonical-engineering-manager-mlops",
+      "company": "Canonical",
+      "title": "Engineering Manager - MLOps & Analytics",
+      "status": "active",
+      "fitScore": 89,
+      "eligibility": "likely",
+      "location": "Home based - Worldwide",
+      "locationFilters": [
+        "remote"
+      ],
+      "workMode": "Remote",
+      "deadline": "Rolling; no closing date published",
+      "compensation": "Location and experience based; not published",
+      "workRights": "Worldwide remote wording is strong, but the employer country setup still needs confirmation.",
+      "families": [
+        "engineering management",
+        "MLOps",
+        "analytics",
+        "Python"
+      ],
+      "familyFilters": [
+        "mlops",
+        "leadership",
+        "data"
+      ],
+      "skills": [
+        "People leadership",
+        "Python",
+        "MLOps",
+        "analytics",
+        "software delivery",
+        "remote teams"
+      ],
+      "whyFit": "Your combination of technical operations leadership, team coordination, workflow automation, QA systems, and data reporting gives you a credible bridge into an engineering-management role.",
+      "evidence": [
+        "Experience leading technical operations and people",
+        "Automation that improves throughput and quality",
+        "Dashboards, reporting, and documentation for operational decisions",
+        "Cross-functional collaboration with engineering and operations"
+      ],
+      "gaps": [
+        "Make formal people-management scope and decision ownership explicit",
+        "Show the difference between managing work and managing engineers"
+      ],
+      "prep": {
+        "resume": [
+          "Use leadership, systems ownership, and measurable operational impact in the first half-page",
+          "Separate people leadership from individual technical contribution"
+        ],
+        "proof": [
+          "A sanitized team operating model",
+          "A manager-style 30/60/90 day plan for an MLOps team"
+        ],
+        "refresh": [
+          "MLOps lifecycle and reliability metrics",
+          "Hiring, feedback, prioritization, and incident leadership"
+        ],
+        "interview": [
+          "How would you raise engineering quality without slowing delivery?",
+          "How do you coach an underperforming team member?",
+          "How do you build trust in a distributed team?"
+        ],
+        "next": [
+          "Map your real team responsibilities to engineering-manager language",
+          "Prepare two leadership stories and one difficult feedback story",
+          "Confirm country eligibility before investing in a full application"
+        ]
+      },
+      "sourceLabel": "Canonical careers",
+      "sourceUrl": "https://canonical.com/careers/4810491/engineering-manager-mlops-and-analytics-remote",
+      "applyUrl": "https://canonical.com/careers/4810491/engineering-manager-mlops-and-analytics-remote",
+      "lastVerified": "2026-08-18",
+      "sourceNote": "The role is technically high fit but seniority should be judged from the full CV, not only the title."
+    },
+    {
+      "id": "canonical-python-kubernetes",
+      "company": "Canonical",
+      "title": "Python & Kubernetes Engineer - Data, AI/ML and Analytics",
+      "status": "active",
+      "fitScore": 87,
+      "eligibility": "likely",
+      "location": "Home based - Worldwide",
+      "locationFilters": [
+        "remote"
+      ],
+      "workMode": "Remote",
+      "deadline": "Rolling; no closing date published",
+      "compensation": "Location and experience based; not published",
+      "workRights": "Worldwide remote wording is likely practical from Rwanda, subject to Canonical's country hiring setup.",
+      "families": [
+        "Python",
+        "Kubernetes",
+        "data workflows",
+        "AI/ML"
+      ],
+      "familyFilters": [
+        "mlops",
+        "data"
+      ],
+      "skills": [
+        "Python",
+        "Kubernetes",
+        "Docker",
+        "data workflows",
+        "AI/ML",
+        "Linux"
+      ],
+      "whyFit": "This role is a strong bridge from your Python automation and data work into production infrastructure, especially if you show a clean public-safe deployment project.",
+      "evidence": [
+        "Production-minded Python automation",
+        "Data extraction, validation, and reporting workflows",
+        "Web application and API integration experience",
+        "Technical documentation and testing"
+      ],
+      "gaps": [
+        "Demonstrate stronger production Kubernetes patterns",
+        "Clarify experience with CI/CD and observability"
+      ],
+      "prep": {
+        "resume": [
+          "Put Python, Linux, Docker, APIs, testing, and data pipelines together",
+          "Use project links that show code structure and deployment"
+        ],
+        "proof": [
+          "A small containerized data service with tests and CI",
+          "A runbook for a failed job and its recovery"
+        ],
+        "refresh": [
+          "Kubernetes services, deployments, probes, and logs",
+          "CI/CD, packaging, and observability"
+        ],
+        "interview": [
+          "Explain a reliable batch data workflow",
+          "Diagnose a container that works locally but fails in production",
+          "Explain your testing strategy"
+        ],
+        "next": [
+          "Build or polish one public-safe Docker/Kubernetes portfolio project",
+          "Tailor the application using original wording"
+        ]
+      },
+      "sourceLabel": "Canonical careers",
+      "sourceUrl": "https://canonical.com/careers/5703396/python-and-kubernetes-software-engineer-data-workflows-ai-ml-and-analytics-remote",
+      "applyUrl": "https://canonical.com/careers/5703396/python-and-kubernetes-software-engineer-data-workflows-ai-ml-and-analytics-remote",
+      "lastVerified": "2026-08-18",
+      "sourceNote": "The direct page was intermittently slow during verification; confirm the listing before applying."
+    },
+    {
+      "id": "waabi-labelling-data-automation",
+      "company": "Waabi",
+      "title": "Software Engineer, Labelling, Data & Automation",
+      "status": "active",
+      "fitScore": 97,
+      "eligibility": "conditional",
+      "location": "Toronto / San Francisco / Pittsburgh / Remote US & Canada",
+      "locationFilters": [
+        "canada",
+        "usa"
+      ],
+      "workMode": "Hybrid or remote within US/Canada",
+      "deadline": "Rolling; no closing date published",
+      "compensation": "US salary range published: $127,000-$225,000 plus bonus/equity",
+      "workRights": "Remote is limited to the United States and Canada. Relocation, work authorization, and sponsorship must be confirmed.",
+      "families": [
+        "ML data",
+        "annotation",
+        "Python",
+        "automation",
+        "autonomous vehicles"
+      ],
+      "familyFilters": [
+        "ml-data",
+        "mlops",
+        "uav"
+      ],
+      "skills": [
+        "Python",
+        "data pipelines",
+        "taxonomy",
+        "label validation",
+        "ML workflows",
+        "cloud orchestration"
+      ],
+      "whyFit": "This is the closest match to your AI-training operations, annotation quality, automation, taxonomy, and data-pipeline experience. It is an exceptional technical fit with a separate geographic constraint.",
+      "evidence": [
+        "Annotation operations and quality systems",
+        "Python automation and data validation",
+        "SOPs, training, and cross-functional coordination",
+        "Databricks, SQL, and reporting workflows"
+      ],
+      "gaps": [
+        "Show software-engineering quality: tests, review, modularity, and deployment",
+        "Confirm large-scale distributed processing depth",
+        "Resolve US/Canada work eligibility"
+      ],
+      "prep": {
+        "resume": [
+          "Lead with ML data systems, automation, taxonomy, validation, and measurable quality impact",
+          "Keep domain language close to autonomous-vehicle data"
+        ],
+        "proof": [
+          "Sanitized annotation QA architecture",
+          "A dataset-quality case study with validation rules and metrics"
+        ],
+        "refresh": [
+          "Distributed ETL and orchestration",
+          "Embeddings, search/curation, and production data monitoring"
+        ],
+        "interview": [
+          "Design a labelling workflow for edge cases",
+          "How do you measure label quality?",
+          "How do you manage vendors without losing data integrity?"
+        ],
+        "next": [
+          "Ask Waabi whether Rwanda-based employment is possible",
+          "Prepare a one-page ML data portfolio summary",
+          "Apply only after work-right answer is clear"
+        ]
+      },
+      "sourceLabel": "Waabi Lever careers",
+      "sourceUrl": "https://jobs.lever.co/waabi/09e213fd-70fb-4715-949a-891576309002",
+      "applyUrl": "https://jobs.lever.co/waabi/09e213fd-70fb-4715-949a-891576309002/apply",
+      "lastVerified": "2026-08-18",
+      "sourceNote": "Verified through the public Lever postings API on this update. Waabi's public Lever board and posting were checked; the salary shown is the US range, not a Rwanda offer."
+    },
+    {
+      "id": "waabi-auto-labelling",
+      "company": "Waabi",
+      "title": "Senior Software Engineer, Auto Labelling",
+      "status": "active",
+      "fitScore": 92,
+      "eligibility": "conditional",
+      "location": "Remote US & Canada / Dallas / Phoenix / Pittsburgh / San Francisco / Toronto",
+      "locationFilters": [
+        "canada",
+        "usa"
+      ],
+      "workMode": "Hybrid or remote within US/Canada",
+      "deadline": "Rolling; no closing date published",
+      "compensation": "US salary range published: $170,000-$220,000 plus bonus/equity",
+      "workRights": "US/Canada work location restriction; sponsorship and relocation are unresolved.",
+      "families": [
+        "computer vision",
+        "ML systems",
+        "auto-labelling",
+        "Python"
+      ],
+      "familyFilters": [
+        "ml-data",
+        "mlops"
+      ],
+      "skills": [
+        "Python",
+        "computer vision",
+        "3D data",
+        "ML systems",
+        "distributed computing",
+        "productionization"
+      ],
+      "whyFit": "Your computer-vision analysis, annotation leadership, and automation background provide a credible path into auto-labelling systems, although the senior software-engineering bar is high.",
+      "evidence": [
+        "Computer-vision and image-analysis projects",
+        "Annotation process and quality ownership",
+        "Python automation and workflow scaling",
+        "Understanding of multimodal data and edge cases"
+      ],
+      "gaps": [
+        "Show model serving and production inference experience",
+        "Strengthen distributed systems and profiling evidence",
+        "Resolve US/Canada work eligibility"
+      ],
+      "prep": {
+        "resume": [
+          "Use computer vision, data curation, and production automation in the headline",
+          "Show code-quality practices rather than only operations volume"
+        ],
+        "proof": [
+          "A public-safe auto-labelling prototype with evaluation metrics",
+          "A short note on failure modes and human review"
+        ],
+        "refresh": [
+          "3D geometry and sensor fusion",
+          "Model serving, profiling, and distributed workloads"
+        ],
+        "interview": [
+          "How would you validate pseudo-labels?",
+          "How do you balance automation and human review?",
+          "How would you profile a slow pipeline?"
+        ],
+        "next": [
+          "Treat as a stretch role and compare against the labelling-data role",
+          "Confirm work authorization before a full application"
+        ]
+      },
+      "sourceLabel": "Waabi Lever careers",
+      "sourceUrl": "https://jobs.lever.co/waabi/d8a47942-30fd-4e7e-815c-150d2ddd0cc7",
+      "applyUrl": "https://jobs.lever.co/waabi/d8a47942-30fd-4e7e-815c-150d2ddd0cc7/apply",
+      "lastVerified": "2026-08-18",
+      "sourceNote": "Verified through the public Lever postings API on this update. Strong technical adjacency; seniority and work-right constraints are material."
+    },
+    {
+      "id": "waabi-ml-datasets-pipelines",
+      "company": "Waabi",
+      "title": "Senior / Staff Software Engineer, ML Datasets & Data Pipelines",
+      "status": "active",
+      "fitScore": 91,
+      "eligibility": "conditional",
+      "location": "Toronto / San Francisco / Remote US & Canada",
+      "locationFilters": [
+        "canada",
+        "usa"
+      ],
+      "workMode": "Hybrid or remote within US/Canada",
+      "deadline": "Rolling; no closing date published",
+      "compensation": "US salary range published: $148,000-$260,000 plus bonus/equity",
+      "workRights": "US/Canada work location restriction; sponsorship and relocation are unresolved.",
+      "families": [
+        "ML datasets",
+        "ETL",
+        "Python",
+        "autonomous vehicles"
+      ],
+      "familyFilters": [
+        "ml-data",
+        "mlops",
+        "data"
+      ],
+      "skills": [
+        "Python",
+        "distributed ETL",
+        "dataset management",
+        "PyTorch",
+        "Spark",
+        "ML evaluation"
+      ],
+      "whyFit": "This role maps to your data extraction, validation, annotation operations, SQL, and ML dataset experience, with a need to make distributed-pipeline depth explicit.",
+      "evidence": [
+        "Large operational data workflows",
+        "Dataset quality and validation thinking",
+        "Python and SQL reporting",
+        "Experience connecting data work to model improvement"
+      ],
+      "gaps": [
+        "Demonstrate PyTorch or another deep-learning data loader",
+        "Make distributed ETL and orchestration concrete",
+        "Resolve US/Canada work eligibility"
+      ],
+      "prep": {
+        "resume": [
+          "Emphasize data lifecycle ownership from source data to evaluation",
+          "Name Spark/Databricks only where you can explain the work"
+        ],
+        "proof": [
+          "A dataset lineage diagram",
+          "A benchmark showing validation or loading improvements"
+        ],
+        "refresh": [
+          "Distributed data loading, caching, and sampling",
+          "PyTorch data pipelines and ML evaluation"
+        ],
+        "interview": [
+          "How would you design data lineage for ML?",
+          "How do you find edge-case slices?",
+          "How would you monitor dataset drift?"
+        ],
+        "next": [
+          "Ask whether Remote US & Canada can include a future relocation path",
+          "Prepare a focused ML data portfolio page"
+        ]
+      },
+      "sourceLabel": "Waabi Lever careers",
+      "sourceUrl": "https://jobs.lever.co/waabi/81ed817e-cb56-45f8-aac6-e645610798da",
+      "applyUrl": "https://jobs.lever.co/waabi/81ed817e-cb56-45f8-aac6-e645610798da/apply",
+      "lastVerified": "2026-08-18",
+      "sourceNote": "Verified through the public Lever postings API on this update. Current employer posting; compensation is the US range only."
+    },
+    {
+      "id": "waabi-simulation-platform",
+      "company": "Waabi",
+      "title": "Senior / Staff Software Engineer, Simulation Platform",
+      "status": "active",
+      "fitScore": 84,
+      "eligibility": "conditional",
+      "location": "Toronto / San Francisco / Remote US & Canada",
+      "locationFilters": [
+        "canada",
+        "usa"
+      ],
+      "workMode": "Hybrid or remote within US/Canada",
+      "deadline": "Rolling; no closing date published",
+      "compensation": "US salary range published: $159,000-$268,000 plus bonus/equity",
+      "workRights": "US/Canada work location restriction; sponsorship and relocation are unresolved.",
+      "families": [
+        "simulation",
+        "systems software",
+        "Python",
+        "autonomy"
+      ],
+      "familyFilters": [
+        "uav",
+        "testing",
+        "mlops"
+      ],
+      "skills": [
+        "Simulation",
+        "Python",
+        "Linux",
+        "concurrency",
+        "APIs",
+        "systems architecture"
+      ],
+      "whyFit": "Your simulation, autonomy, technical systems, and automation background is relevant, but this is a senior systems-software role and should be treated as a stretch.",
+      "evidence": [
+        "Simulation and deep-learning study projects",
+        "Systems troubleshooting and operational diagnostics",
+        "Python automation and API integration",
+        "Cross-functional technical delivery"
+      ],
+      "gaps": [
+        "Show production-quality systems software and concurrency",
+        "Strengthen Rust/C++ evidence if applicable",
+        "Resolve US/Canada work eligibility"
+      ],
+      "prep": {
+        "resume": [
+          "Put systems, simulation, interfaces, and reliability ahead of generic AI keywords",
+          "Include one architecture diagram or code sample"
+        ],
+        "proof": [
+          "A deterministic simulation harness with tests",
+          "A performance note with profiling results"
+        ],
+        "refresh": [
+          "Concurrency, determinism, profiling, and distributed simulation",
+          "Rust/C++ fundamentals if the role requires them"
+        ],
+        "interview": [
+          "Design a simulation orchestration service",
+          "How do you make a test reproducible?",
+          "How do you find a performance bottleneck?"
+        ],
+        "next": [
+          "Apply only if your systems-software evidence is strong",
+          "Confirm work-right route with the recruiter"
+        ]
+      },
+      "sourceLabel": "Waabi Lever careers",
+      "sourceUrl": "https://jobs.lever.co/waabi/98adc020-0aa7-4972-a3be-bd713be72fcc",
+      "applyUrl": "https://jobs.lever.co/waabi/98adc020-0aa7-4972-a3be-bd713be72fcc/apply",
+      "lastVerified": "2026-08-18",
+      "sourceNote": "Verified through the public Lever postings API on this update. High domain relevance, but seniority and systems-language requirements need an honest gap check."
+    },
+    {
+      "id": "waabi-evaluation-infrastructure",
+      "company": "Waabi",
+      "title": "Senior Software Engineer, Evaluation Infrastructure",
+      "status": "active",
+      "fitScore": 88,
+      "eligibility": "conditional",
+      "location": "Toronto / Remote US & Canada",
+      "locationFilters": [
+        "canada",
+        "usa"
+      ],
+      "workMode": "Hybrid or remote within US/Canada",
+      "deadline": "Rolling; no closing date published",
+      "compensation": "Not published in the source snapshot",
+      "workRights": "US/Canada work location restriction; sponsorship and relocation are unresolved.",
+      "families": [
+        "ML evaluation",
+        "testing",
+        "data infrastructure"
+      ],
+      "familyFilters": [
+        "ml-data",
+        "testing",
+        "mlops"
+      ],
+      "skills": [
+        "Evaluation",
+        "Python",
+        "testing",
+        "data pipelines",
+        "metrics",
+        "autonomy"
+      ],
+      "whyFit": "Your QA automation, evaluation mindset, annotation metrics, and operational reporting map naturally to evaluation infrastructure for autonomous systems.",
+      "evidence": [
+        "Quality checks across multiple dimensions",
+        "Metrics and reporting for operational decisions",
+        "Automation that routes issues and reduces manual review",
+        "Documentation and repeatable QA workflows"
+      ],
+      "gaps": [
+        "Translate annotation QA into model-evaluation language",
+        "Confirm distributed infrastructure and cloud depth",
+        "Resolve US/Canada work eligibility"
+      ],
+      "prep": {
+        "resume": [
+          "Use evaluation, regression, data quality, and failure analysis language",
+          "Make test coverage and measurable outcomes visible"
+        ],
+        "proof": [
+          "An evaluation matrix for a computer-vision system",
+          "A failure taxonomy and escalation playbook"
+        ],
+        "refresh": [
+          "Offline versus online evaluation",
+          "Data slicing, regression tests, and experiment tracking"
+        ],
+        "interview": [
+          "How would you know an autonomy model improved?",
+          "Design a regression suite for edge cases",
+          "What makes an evaluation metric trustworthy?"
+        ],
+        "next": [
+          "Build a sanitized evaluation case study from your existing QA experience",
+          "Verify the current posting and hiring geography"
+        ]
+      },
+      "sourceLabel": "Waabi Lever careers",
+      "sourceUrl": "https://jobs.lever.co/waabi/12c40987-656a-4ec3-9fc0-3c0801c74238",
+      "applyUrl": "https://jobs.lever.co/waabi/12c40987-656a-4ec3-9fc0-3c0801c74238/apply",
+      "lastVerified": "2026-08-18",
+      "sourceNote": "Verified through the public Lever postings API on this update. The public board confirms the posting; read the full live description before applying."
+    },
+    {
+      "id": "waabi-ml-infrastructure",
+      "company": "Waabi",
+      "title": "Senior / Staff Machine Learning Infrastructure Engineer",
+      "status": "active",
+      "fitScore": 83,
+      "eligibility": "conditional",
+      "location": "Remote US & Canada / Toronto / US offices",
+      "locationFilters": [
+        "canada",
+        "usa"
+      ],
+      "workMode": "Hybrid or remote within US/Canada",
+      "deadline": "Rolling; no closing date published",
+      "compensation": "Not published in the source snapshot",
+      "workRights": "US/Canada work location restriction; sponsorship and relocation are unresolved.",
+      "families": [
+        "ML infrastructure",
+        "MLOps",
+        "cloud",
+        "platform engineering"
+      ],
+      "familyFilters": [
+        "mlops",
+        "ml-data"
+      ],
+      "skills": [
+        "Python",
+        "Kubernetes",
+        "Docker",
+        "Kubeflow",
+        "cloud",
+        "model monitoring"
+      ],
+      "whyFit": "This is a credible progression target from your automation and ML-data background into infrastructure, provided you can show production platform work rather than only notebook work.",
+      "evidence": [
+        "Python automation and data systems",
+        "Operational monitoring and QA thinking",
+        "Experience supporting repeatable workflows",
+        "Cloud and deployment learning trajectory"
+      ],
+      "gaps": [
+        "Hands-on Kubernetes/Kubeflow depth",
+        "Production model serving and observability",
+        "Resolve US/Canada work eligibility"
+      ],
+      "prep": {
+        "resume": [
+          "Lead with platform reliability, workflow automation, and deployment",
+          "Add a compact technology matrix with honest proficiency levels"
+        ],
+        "proof": [
+          "A model-serving or batch-scoring project with monitoring",
+          "A documented incident and recovery runbook"
+        ],
+        "refresh": [
+          "Kubeflow, Kubernetes, Docker, and model monitoring",
+          "Resource management and reproducibility"
+        ],
+        "interview": [
+          "Design a multi-tenant training platform",
+          "How do you monitor data and model failures?",
+          "How do you make ML jobs reproducible?"
+        ],
+        "next": [
+          "Close the Kubernetes evidence gap in a public-safe project",
+          "Confirm whether the role supports relocation from Rwanda"
+        ]
+      },
+      "sourceLabel": "Waabi Lever careers",
+      "sourceUrl": "https://jobs.lever.co/waabi/1b9e7190-acb7-47bb-b6e4-d589d8561082",
+      "applyUrl": "https://jobs.lever.co/waabi/1b9e7190-acb7-47bb-b6e4-d589d8561082/apply",
+      "lastVerified": "2026-08-18",
+      "sourceNote": "Verified through the public Lever postings API on this update. Very strong trajectory fit; treat seniority and work location as hard questions."
+    },
+    {
+      "id": "waabi-vehicle-reliability",
+      "company": "Waabi",
+      "title": "Vehicle Reliability Engineer",
+      "status": "active",
+      "fitScore": 86,
+      "eligibility": "conditional",
+      "location": "Dallas / Pittsburgh / San Francisco / Remote US",
+      "locationFilters": [
+        "usa"
+      ],
+      "workMode": "Hybrid or remote within US",
+      "deadline": "Rolling; no closing date published",
+      "compensation": "Not published in the source snapshot",
+      "workRights": "US locations and Remote US are listed. Sponsorship and relocation are unresolved.",
+      "families": [
+        "reliability",
+        "UAV systems",
+        "troubleshooting",
+        "operations"
+      ],
+      "familyFilters": [
+        "uav",
+        "testing",
+        "leadership"
+      ],
+      "skills": [
+        "Root cause analysis",
+        "Linux",
+        "diagnostics",
+        "reliability",
+        "field operations",
+        "data analysis"
+      ],
+      "whyFit": "Your maintenance, electronics, field-operations, issue-triage, and reliability background makes this a strong domain bridge from aerial systems to autonomous vehicles.",
+      "evidence": [
+        "Hands-on systems and maintenance experience",
+        "Technical incident diagnosis and escalation",
+        "Operational data and documentation",
+        "Process improvement and QA"
+      ],
+      "gaps": [
+        "CAN bus and automotive diagnostic tools may be required",
+        "Make formal RCA methods and safety standards explicit",
+        "Resolve US work eligibility"
+      ],
+      "prep": {
+        "resume": [
+          "Lead with troubleshooting, reliability, field readiness, and cross-system diagnosis",
+          "Use maintenance and autonomy experience together"
+        ],
+        "proof": [
+          "A sanitized root-cause analysis example",
+          "A reliability dashboard or preventive-maintenance workflow"
+        ],
+        "refresh": [
+          "CAN bus basics, FMEA, 5 Whys, fault trees, and functional safety",
+          "Linux diagnostics and networking"
+        ],
+        "interview": [
+          "Walk through an intermittent field failure",
+          "How do you decide between a workaround and a stop-work issue?",
+          "How do you prevent recurrence?"
+        ],
+        "next": [
+          "Confirm the US hiring route",
+          "Prepare one detailed reliability story with evidence and outcome"
+        ]
+      },
+      "sourceLabel": "Waabi Lever careers",
+      "sourceUrl": "https://jobs.lever.co/waabi/4889104b-bb12-4fd7-a332-843fbb45f0a4",
+      "applyUrl": "https://jobs.lever.co/waabi/4889104b-bb12-4fd7-a332-843fbb45f0a4/apply",
+      "lastVerified": "2026-08-18",
+      "sourceNote": "Verified through the public Lever postings API on this update. Excellent systems fit, but this is vehicle reliability rather than an ML-data role."
+    },
+    {
+      "id": "waabi-tpm-platform-integration",
+      "company": "Waabi",
+      "title": "Lead Technical Program Manager, Platform Integration",
+      "status": "active",
+      "fitScore": 90,
+      "eligibility": "conditional",
+      "location": "Toronto / San Francisco / Pittsburgh / Remote US & Canada",
+      "locationFilters": [
+        "canada",
+        "usa"
+      ],
+      "workMode": "Hybrid or remote within US/Canada",
+      "deadline": "Rolling; no closing date published",
+      "compensation": "US salary range published: $171,000-$243,000 plus bonus/equity",
+      "workRights": "US/Canada work location restriction; sponsorship and relocation are unresolved.",
+      "families": [
+        "technical program management",
+        "systems integration",
+        "autonomy",
+        "leadership"
+      ],
+      "familyFilters": [
+        "leadership",
+        "uav",
+        "testing"
+      ],
+      "skills": [
+        "Program planning",
+        "dependency mapping",
+        "risk management",
+        "systems integration",
+        "Jira",
+        "AI workflows"
+      ],
+      "whyFit": "This role sits exactly at the intersection of hardware, software, autonomy, operations, and structured delivery. Your systems mindset and operational leadership are relevant even if the formal TPM title is not yet present.",
+      "evidence": [
+        "Cross-functional technical delivery",
+        "Operational process design and tracking",
+        "UAV/electronics/autonomy context",
+        "AI tooling and automation for visibility"
+      ],
+      "gaps": [
+        "Make program-management artifacts explicit: risks, dependencies, milestones, DRIs",
+        "Show executive communication and six-plus years of relevant scope",
+        "Resolve US/Canada work eligibility"
+      ],
+      "prep": {
+        "resume": [
+          "Use technical program language: critical path, risk register, dependencies, readiness, V&V",
+          "Keep hands-on technical credibility visible"
+        ],
+        "proof": [
+          "A sanitized integrated roadmap",
+          "A one-page risk register and path-to-green example"
+        ],
+        "refresh": [
+          "Systems V&V, program governance, and dependency management",
+          "Executive status writing"
+        ],
+        "interview": [
+          "How do you expose a hidden dependency?",
+          "Describe a program that was at risk",
+          "How do you align teams with different cadences?"
+        ],
+        "next": [
+          "Audit your actual scope against six-plus years of technical program work",
+          "Prepare three delivery artifacts without employer-sensitive information"
+        ]
+      },
+      "sourceLabel": "Waabi Lever careers",
+      "sourceUrl": "https://jobs.lever.co/waabi/fc6553a1-eff7-4f79-96fb-1cf97dcb866d",
+      "applyUrl": "https://jobs.lever.co/waabi/fc6553a1-eff7-4f79-96fb-1cf97dcb866d/apply",
+      "lastVerified": "2026-08-18",
+      "sourceNote": "Verified through the public Lever postings API on this update. High-value leadership stretch. The six-plus-year requirement and location restriction need an explicit check."
+    },
+    {
+      "id": "waabi-sensors-integration",
+      "company": "Waabi",
+      "title": "Senior / Staff Software Engineer, Sensors Integration",
+      "status": "active",
+      "fitScore": 82,
+      "eligibility": "conditional",
+      "location": "Toronto / San Francisco / Pittsburgh",
+      "locationFilters": [
+        "canada",
+        "usa"
+      ],
+      "workMode": "Hybrid",
+      "deadline": "Rolling; no closing date published",
+      "compensation": "Not published in the source snapshot",
+      "workRights": "Listed locations are in Canada and the United States. Sponsorship and relocation are unresolved.",
+      "families": [
+        "sensors",
+        "electronics",
+        "autonomy",
+        "systems"
+      ],
+      "familyFilters": [
+        "uav",
+        "testing"
+      ],
+      "skills": [
+        "Sensors",
+        "electronics",
+        "Linux",
+        "C++",
+        "Python",
+        "autonomy"
+      ],
+      "whyFit": "Your electronics, embedded, UAV, and autonomy background is relevant to sensor integration, but the senior software-engineering bar is substantial.",
+      "evidence": [
+        "Electronics and telecommunications engineering",
+        "UAV systems and flight operations",
+        "Debugging and hardware/software integration",
+        "Python and data analysis"
+      ],
+      "gaps": [
+        "Confirm C++ and sensor-fusion depth",
+        "Show production software engineering",
+        "Resolve North America work eligibility"
+      ],
+      "prep": {
+        "resume": [
+          "Bring electronics, sensors, embedded Linux, debugging, and flight systems forward",
+          "Use a systems diagram to show integration breadth"
+        ],
+        "proof": [
+          "A public-safe sensor-data pipeline or integration note",
+          "A test plan for sensor failure modes"
+        ],
+        "refresh": [
+          "Sensor fusion, calibration, time synchronization, and C++",
+          "Linux debugging and communication interfaces"
+        ],
+        "interview": [
+          "How do you diagnose a sensor timing issue?",
+          "How do you test a new sensor in an autonomy stack?",
+          "How do you separate hardware from software faults?"
+        ],
+        "next": [
+          "Position as a systems-integration stretch role",
+          "Verify seniority and sponsorship before applying"
+        ]
+      },
+      "sourceLabel": "Waabi Lever careers",
+      "sourceUrl": "https://jobs.lever.co/waabi/8ba014bf-a0f8-422f-8686-5cde55f12bf6",
+      "applyUrl": "https://jobs.lever.co/waabi/8ba014bf-a0f8-422f-8686-5cde55f12bf6/apply",
+      "lastVerified": "2026-08-18",
+      "sourceNote": "Verified through the public Lever postings API on this update. Good domain fit with a stronger C++/embedded software expectation than your current primary narrative."
+    },
+    {
+      "id": "waabi-platform-verification",
+      "company": "Waabi",
+      "title": "Platform Verification Engineer - Embedded Systems",
+      "status": "active",
+      "fitScore": 84,
+      "eligibility": "conditional",
+      "location": "San Francisco / Pittsburgh",
+      "locationFilters": [
+        "usa"
+      ],
+      "workMode": "Hybrid",
+      "deadline": "Rolling; no closing date published",
+      "compensation": "Not published in the source snapshot",
+      "workRights": "US locations are listed. Sponsorship and relocation are unresolved.",
+      "families": [
+        "verification",
+        "embedded systems",
+        "testing",
+        "reliability"
+      ],
+      "familyFilters": [
+        "testing",
+        "uav"
+      ],
+      "skills": [
+        "Embedded systems",
+        "verification",
+        "test plans",
+        "Linux",
+        "automation",
+        "hardware/software integration"
+      ],
+      "whyFit": "Your QA automation and electronics/embedded foundation align with platform verification, especially if you present test design and failure analysis rather than only annotation QA.",
+      "evidence": [
+        "QA automation and validation workflows",
+        "Electronics and embedded background",
+        "Structured issue reporting and triage",
+        "Technical documentation"
+      ],
+      "gaps": [
+        "Show embedded verification and hardware test depth",
+        "Resolve US work eligibility"
+      ],
+      "prep": {
+        "resume": [
+          "Translate QA pipeline work into verification, regression, traceability, and release readiness",
+          "Show hardware/software boundary experience"
+        ],
+        "proof": [
+          "A verification matrix for an embedded system",
+          "A reproducible bug report with logs and evidence"
+        ],
+        "refresh": [
+          "SIL/HIL/VIL concepts, test coverage, and traceability",
+          "Embedded Linux and interfaces"
+        ],
+        "interview": [
+          "How would you validate a safety-critical change?",
+          "What belongs in a verification plan?",
+          "How do you test under incomplete requirements?"
+        ],
+        "next": [
+          "Compare with Shield AI Systems Test, which has a closer UAV context",
+          "Confirm location and visa route"
+        ]
+      },
+      "sourceLabel": "Waabi Lever careers",
+      "sourceUrl": "https://jobs.lever.co/waabi/bfe20894-5899-41b5-8cf7-c9f1469d18b7",
+      "applyUrl": "https://jobs.lever.co/waabi/bfe20894-5899-41b5-8cf7-c9f1469d18b7/apply",
+      "lastVerified": "2026-08-18",
+      "sourceNote": "Verified through the public Lever postings API on this update. The public board confirms the role; read the full source before deciding whether the location is practical."
+    },
+    {
+      "id": "shield-autonomy-integration",
+      "company": "Shield AI",
+      "title": "Autonomy Integration Engineer",
+      "status": "active",
+      "fitScore": 94,
+      "eligibility": "conditional",
+      "location": "London, United Kingdom",
+      "locationFilters": [
+        "europe"
+      ],
+      "workMode": "On-site",
+      "deadline": "Rolling; no closing date published",
+      "compensation": "Country-aligned package; not published",
+      "workRights": "UK role. Sponsorship, security restrictions, and any defense-related eligibility must be confirmed.",
+      "families": [
+        "UAV",
+        "autonomy integration",
+        "flight testing",
+        "embedded systems"
+      ],
+      "familyFilters": [
+        "uav",
+        "testing"
+      ],
+      "skills": [
+        "UAV",
+        "Python",
+        "C++",
+        "Linux",
+        "sensors",
+        "flight test",
+        "debugging"
+      ],
+      "whyFit": "The role combines aircraft integration, flight readiness, telemetry, debugging, field operations, sensors, and autonomy. That is a direct match to the systems side of your experience.",
+      "evidence": [
+        "UAV and flight-operations experience",
+        "Electronics and embedded systems foundation",
+        "Operational troubleshooting and issue triage",
+        "Python, data analysis, and documentation"
+      ],
+      "gaps": [
+        "Confirm C++/RTOS/ROS or DDS depth",
+        "Check UK sponsorship and defense restrictions",
+        "Prepare examples of live flight-test support"
+      ],
+      "prep": {
+        "resume": [
+          "Lead with aircraft integration, flight readiness, field troubleshooting, and autonomy",
+          "Put electronics and telemetry near the top"
+        ],
+        "proof": [
+          "A sanitized flight-test readiness checklist",
+          "A flight-data troubleshooting case study"
+        ],
+        "refresh": [
+          "ROS/DDS, RTOS, sensor integration, and GCS workflows",
+          "UK work authorization and defense-export questions"
+        ],
+        "interview": [
+          "Walk through an aircraft bring-up",
+          "How do you troubleshoot under time pressure?",
+          "How do you decide a system is flight ready?"
+        ],
+        "next": [
+          "Ask Shield AI directly about UK sponsorship and restrictions",
+          "Prepare a flight-systems CV version"
+        ]
+      },
+      "sourceLabel": "Shield AI Lever careers",
+      "sourceUrl": "https://jobs.lever.co/shieldai/ec27312c-b829-42fb-9a1f-e5733b38b0c1",
+      "applyUrl": "https://jobs.lever.co/shieldai/ec27312c-b829-42fb-9a1f-e5733b38b0c1/apply",
+      "lastVerified": "2026-08-18",
+      "sourceNote": "Verified through the public Lever postings API on this update. Shield AI's application page notes that AI tools may assist recruiting; submit accurate, human-reviewed materials."
+    },
+    {
+      "id": "shield-systems-test",
+      "company": "Shield AI",
+      "title": "Systems Test Engineer",
+      "status": "active",
+      "fitScore": 93,
+      "eligibility": "conditional",
+      "location": "London, United Kingdom",
+      "locationFilters": [
+        "europe"
+      ],
+      "workMode": "On-site",
+      "deadline": "Rolling; no closing date published",
+      "compensation": "Country-aligned package; not published",
+      "workRights": "UK role. Sponsorship, security restrictions, and any defense-related eligibility must be confirmed.",
+      "families": [
+        "systems testing",
+        "simulation",
+        "UAV",
+        "Python"
+      ],
+      "familyFilters": [
+        "testing",
+        "uav",
+        "mlops"
+      ],
+      "skills": [
+        "Python",
+        "simulation",
+        "SIL/HIL/VIL",
+        "regression testing",
+        "CI/CD",
+        "QA"
+      ],
+      "whyFit": "Your QA automation, computer vision, simulation study, Python, and autonomous-systems background maps directly to simulation-driven test engineering.",
+      "evidence": [
+        "Large QA automation framework",
+        "Testing and validation logic",
+        "Computer vision and deep-learning projects",
+        "Documentation and issue triage"
+      ],
+      "gaps": [
+        "Show SIL/HIL/VIL or comparable test-harness experience",
+        "Check the seven-year/equivalent experience benchmark",
+        "Resolve UK work eligibility"
+      ],
+      "prep": {
+        "resume": [
+          "Use systems test, regression, test data, and defect-diagnosis language",
+          "Put Python automation and simulation near the top"
+        ],
+        "proof": [
+          "A simulation-based regression harness",
+          "A test plan with traceability and failure triage"
+        ],
+        "refresh": [
+          "SIL/HIL/VIL, CI test integration, and test metrics",
+          "Autonomy failure modes and reproducibility"
+        ],
+        "interview": [
+          "Design a test strategy for autonomy behavior",
+          "How do you reproduce a nondeterministic failure?",
+          "How do you decide test coverage is enough?"
+        ],
+        "next": [
+          "Ask whether equivalent experience can satisfy the benchmark",
+          "Prepare a test-engineering CV version"
+        ]
+      },
+      "sourceLabel": "Shield AI Lever careers",
+      "sourceUrl": "https://jobs.lever.co/shieldai/063e8ca4-9077-4edf-b85e-04dcfdf9afc3",
+      "applyUrl": "https://jobs.lever.co/shieldai/063e8ca4-9077-4edf-b85e-04dcfdf9afc3/apply",
+      "lastVerified": "2026-08-18",
+      "sourceNote": "Verified through the public Lever postings API on this update. Treat as a credible stretch application because the domain match is unusually strong."
+    },
+    {
+      "id": "shield-simulation-specialist",
+      "company": "Shield AI",
+      "title": "Simulation Specialist",
+      "status": "active",
+      "fitScore": 85,
+      "eligibility": "conditional",
+      "location": "London / Munich / Berlin / Frankfurt / Amsterdam / Madrid",
+      "locationFilters": [
+        "europe"
+      ],
+      "workMode": "On-site",
+      "deadline": "Rolling; no closing date published",
+      "compensation": "Country-aligned package; not published",
+      "workRights": "European locations vary. Verify the employing entity, sponsorship, and any security restrictions.",
+      "families": [
+        "simulation",
+        "autonomy",
+        "testing",
+        "UAV"
+      ],
+      "familyFilters": [
+        "uav",
+        "testing"
+      ],
+      "skills": [
+        "Simulation",
+        "autonomy",
+        "Python",
+        "test data",
+        "aircraft systems"
+      ],
+      "whyFit": "This role gives you several European location paths and aligns with your simulation, autonomy, data, and operational-systems interests.",
+      "evidence": [
+        "Deep-learning and simulation learning projects",
+        "UAV and autonomy context",
+        "Data analysis and quality systems",
+        "Technical documentation"
+      ],
+      "gaps": [
+        "Role-specific simulation tooling may be required",
+        "Work-rights and security rules vary by country"
+      ],
+      "prep": {
+        "resume": [
+          "Use a simulation/autonomy narrative rather than an annotation-only narrative",
+          "Show a project where you analyzed model or system behavior"
+        ],
+        "proof": [
+          "A simulation experiment report",
+          "A data-quality or scenario-coverage matrix"
+        ],
+        "refresh": [
+          "Scenario design, simulation fidelity, and autonomy validation",
+          "Python data processing"
+        ],
+        "interview": [
+          "How do you know a simulation is useful?",
+          "How would you prioritize scenarios?",
+          "How do you connect simulation results to field performance?"
+        ],
+        "next": [
+          "Identify which listed country is most realistic for sponsorship",
+          "Tailor one application to that location"
+        ]
+      },
+      "sourceLabel": "Shield AI Lever careers",
+      "sourceUrl": "https://jobs.lever.co/shieldai/1bb084ba-797f-40d5-acf9-ee0ca24586cb",
+      "applyUrl": "https://jobs.lever.co/shieldai/1bb084ba-797f-40d5-acf9-ee0ca24586cb/apply",
+      "lastVerified": "2026-08-18",
+      "sourceNote": "Verified through the public Lever postings API on this update. One Shield AI source page lists multiple European locations; confirm the exact employing entity."
+    },
+    {
+      "id": "shield-forward-deployed",
+      "company": "Shield AI",
+      "title": "Forward Deployed Engineer",
+      "status": "active",
+      "fitScore": 87,
+      "eligibility": "conditional",
+      "location": "London, United Kingdom",
+      "locationFilters": [
+        "europe"
+      ],
+      "workMode": "On-site / field-facing",
+      "deadline": "Rolling; no closing date published",
+      "compensation": "Country-aligned package; not published",
+      "workRights": "UK role. Verify sponsorship, travel, security, and defense-related eligibility.",
+      "families": [
+        "field engineering",
+        "autonomy",
+        "technical delivery",
+        "UAV"
+      ],
+      "familyFilters": [
+        "uav",
+        "leadership",
+        "testing"
+      ],
+      "skills": [
+        "Field deployment",
+        "autonomy",
+        "systems integration",
+        "customer delivery",
+        "debugging"
+      ],
+      "whyFit": "Your background combines frontline operations, technical troubleshooting, documentation, and autonomy systems, which is useful for field-facing deployment work.",
+      "evidence": [
+        "Real-world operational systems experience",
+        "Cross-functional technical communication",
+        "Issue triage and escalation",
+        "UAV/electronics and data background"
+      ],
+      "gaps": [
+        "Confirm customer-facing deployment and travel expectations",
+        "Resolve UK work and security eligibility"
+      ],
+      "prep": {
+        "resume": [
+          "Lead with field ownership, operational judgment, and deployment readiness",
+          "Show calm troubleshooting under imperfect information"
+        ],
+        "proof": [
+          "A deployment-readiness checklist",
+          "A concise incident report written for a customer and an engineer"
+        ],
+        "refresh": [
+          "Change management, field debugging, and stakeholder communication",
+          "Autonomy system interfaces"
+        ],
+        "interview": [
+          "Describe a high-pressure operational issue",
+          "How do you communicate uncertainty?",
+          "How do you turn field feedback into product improvement?"
+        ],
+        "next": [
+          "Ask about travel, security, and sponsorship before applying",
+          "Prepare a field-engineering resume variant"
+        ]
+      },
+      "sourceLabel": "Shield AI Lever careers",
+      "sourceUrl": "https://jobs.lever.co/shieldai/7d6a8fe1-66eb-4771-9e1d-0182490d0cd5",
+      "applyUrl": "https://jobs.lever.co/shieldai/7d6a8fe1-66eb-4771-9e1d-0182490d0cd5/apply",
+      "lastVerified": "2026-08-18",
+      "sourceNote": "Verified through the public Lever postings API on this update. Good match for practical systems delivery; the exact job requirements should be reviewed before application."
+    },
+    {
+      "id": "c4ir-program-manager-ai-scaling",
+      "company": "C4IR Rwanda",
+      "title": "Program Manager - Rwanda AI Scaling Hub",
+      "status": "active",
+      "fitScore": 86,
+      "eligibility": "likely",
+      "location": "Kigali, Rwanda",
+      "locationFilters": [
+        "rwanda",
+        "africa"
+      ],
+      "workMode": "Rwanda based",
+      "deadline": "Not published on the source page",
+      "compensation": "Not published",
+      "workRights": "Rwanda-based role; local work eligibility is likely practical, but confirm the employer's requirements.",
+      "families": [
+        "AI programs",
+        "technical leadership",
+        "stakeholder delivery",
+        "Africa"
+      ],
+      "familyFilters": [
+        "leadership",
+        "mlops",
+        "data"
+      ],
+      "skills": [
+        "AI programs",
+        "stakeholder management",
+        "delivery",
+        "innovation",
+        "Rwanda",
+        "Africa"
+      ],
+      "whyFit": "This is a strong Rwanda-based leadership path that connects your AI operations, technical coordination, automation, and interest in African AI systems.",
+      "evidence": [
+        "Technical operations and team leadership",
+        "AI data and automation experience",
+        "Programme documentation and stakeholder communication",
+        "Rwanda context and practical delivery"
+      ],
+      "gaps": [
+        "Confirm the programme's policy, partnership, and funding responsibilities",
+        "Prepare a strategic narrative beyond day-to-day operations"
+      ],
+      "prep": {
+        "resume": [
+          "Lead with AI programme delivery, systems thinking, and measurable operational outcomes",
+          "Show how you translate technical work into organisational impact"
+        ],
+        "proof": [
+          "A one-page AI scaling roadmap for a Rwandan use case",
+          "A stakeholder map and delivery risk register"
+        ],
+        "refresh": [
+          "AI governance, public-private partnerships, and programme metrics",
+          "Responsible AI in African contexts"
+        ],
+        "interview": [
+          "What would responsible AI scaling look like in Rwanda?",
+          "How do you align technical and non-technical partners?",
+          "How do you measure programme impact?"
+        ],
+        "next": [
+          "Open the employer application page and check the complete role brief",
+          "Prepare a Rwanda-focused leadership CV"
+        ]
+      },
+      "sourceLabel": "C4IR Rwanda careers",
+      "sourceUrl": "https://c4ir.rw/jobs",
+      "applyUrl": "https://www.careers-page.com/right-seat-2/job/3WR58V4W",
+      "lastVerified": "2026-08-18",
+      "sourceNote": "The employer page shows the opening and links to the application provider; no deadline was shown."
+    },
+    {
+      "id": "c4ir-head-artificial-intelligence",
+      "company": "C4IR Rwanda",
+      "title": "Head, Artificial Intelligence",
+      "status": "active",
+      "fitScore": 78,
+      "eligibility": "likely",
+      "location": "Kigali, Rwanda",
+      "locationFilters": [
+        "rwanda",
+        "africa"
+      ],
+      "workMode": "Rwanda based",
+      "deadline": "Not published on the source page",
+      "compensation": "Not published",
+      "workRights": "Rwanda-based role; confirm seniority and local eligibility.",
+      "families": [
+        "AI leadership",
+        "strategy",
+        "technical delivery"
+      ],
+      "familyFilters": [
+        "leadership",
+        "mlops"
+      ],
+      "skills": [
+        "AI strategy",
+        "leadership",
+        "partnerships",
+        "technical direction",
+        "Africa"
+      ],
+      "whyFit": "This is a senior stretch role aligned with your desire to move toward AI leadership, but it will require stronger evidence of organisation-wide strategy and senior stakeholder ownership.",
+      "evidence": [
+        "AI operations and technical leadership",
+        "Automation and systems-building mindset",
+        "Ability to connect frontline work with improvement programmes",
+        "Engineering foundation"
+      ],
+      "gaps": [
+        "Confirm the required seniority and strategic mandate",
+        "Build stronger evidence of external partnerships and AI governance"
+      ],
+      "prep": {
+        "resume": [
+          "Use a leadership narrative built around AI capability-building and delivery",
+          "Do not overclaim head-of-function scope"
+        ],
+        "proof": [
+          "A two-page AI strategy for a real African operational problem",
+          "Evidence of mentoring, programme ownership, and stakeholder alignment"
+        ],
+        "refresh": [
+          "AI governance, operating models, budgets, and strategic roadmaps",
+          "Executive communication"
+        ],
+        "interview": [
+          "What AI capabilities should Rwanda build next?",
+          "How do you govern AI adoption?",
+          "How would you build a high-performing AI team?"
+        ],
+        "next": [
+          "Read the full application brief",
+          "Decide whether this is an immediate application or a 12-month target"
+        ]
+      },
+      "sourceLabel": "C4IR Rwanda careers",
+      "sourceUrl": "https://c4ir.rw/jobs",
+      "applyUrl": "https://www.careers-page.com/right-seat-2/job/7XY3V4YX",
+      "lastVerified": "2026-08-18",
+      "sourceNote": "Treat as a seniority-sensitive stretch role, not as a guaranteed match."
+    },
+    {
+      "id": "c4ir-data-governance-ai-safety",
+      "company": "C4IR Rwanda",
+      "title": "Lead, Data Governance & AI Safety",
+      "status": "active",
+      "fitScore": 82,
+      "eligibility": "likely",
+      "location": "Kigali, Rwanda",
+      "locationFilters": [
+        "rwanda",
+        "africa"
+      ],
+      "workMode": "Rwanda based",
+      "deadline": "Not published on the source page",
+      "compensation": "Not published",
+      "workRights": "Rwanda-based role; confirm the full professional and policy experience requirements.",
+      "families": [
+        "data governance",
+        "AI safety",
+        "quality",
+        "technical leadership"
+      ],
+      "familyFilters": [
+        "ml-data",
+        "leadership",
+        "testing",
+        "data"
+      ],
+      "skills": [
+        "Data quality",
+        "AI safety",
+        "governance",
+        "documentation",
+        "risk",
+        "stakeholders"
+      ],
+      "whyFit": "Your data-quality, annotation governance, QA, documentation, and operational leadership experience gives you a useful foundation for responsible AI and data governance work.",
+      "evidence": [
+        "Quality standards, validation, and audit-style workflows",
+        "Data and annotation governance experience",
+        "Training, documentation, and process improvement",
+        "Technical communication across teams"
+      ],
+      "gaps": [
+        "Deepen knowledge of Rwanda data-protection and AI-policy frameworks",
+        "Clarify governance ownership and risk-management experience"
+      ],
+      "prep": {
+        "resume": [
+          "Lead with data quality, standards, controls, auditability, and training",
+          "Connect annotation rules to responsible AI outcomes"
+        ],
+        "proof": [
+          "A public-safe data-governance checklist",
+          "An AI risk register with mitigations and owners"
+        ],
+        "refresh": [
+          "Rwanda data-protection principles, model risk, fairness, and consent",
+          "Data lineage and incident response"
+        ],
+        "interview": [
+          "How would you introduce governance without blocking delivery?",
+          "How do you identify unsafe training data?",
+          "What should be documented for an AI system?"
+        ],
+        "next": [
+          "Read the complete application page",
+          "Prepare a governance-focused CV and portfolio note"
+        ]
+      },
+      "sourceLabel": "C4IR Rwanda careers",
+      "sourceUrl": "https://c4ir.rw/jobs",
+      "applyUrl": "https://www.careers-page.com/right-seat-2/job/X95W497Y",
+      "lastVerified": "2026-08-18",
+      "sourceNote": "This may be one of the most realistic Rwanda leadership bridges from AI operations into AI governance."
+    },
+    {
+      "id": "kivu-choice-junior-data-analyst",
+      "company": "Kivu Choice",
+      "title": "Junior Data Analyst",
+      "status": "active",
+      "fitScore": 72,
+      "eligibility": "likely",
+      "location": "Kagano, Nyamasheke, Rwanda",
+      "locationFilters": [
+        "rwanda",
+        "africa"
+      ],
+      "workMode": "On-site",
+      "deadline": "20 Aug 2026",
+      "compensation": "Salary not specified",
+      "workRights": "Rwanda-based role. The employer page describes a local application route and required identity/academic documents.",
+      "families": [
+        "data analysis",
+        "reporting",
+        "operations",
+        "BI"
+      ],
+      "familyFilters": [
+        "data"
+      ],
+      "skills": [
+        "Power BI",
+        "SQL Server",
+        "Excel",
+        "data quality",
+        "KPI reporting",
+        "forecasting"
+      ],
+      "whyFit": "The role is below your likely technical level but has an unusually direct overlap with operational data, reporting, dashboards, data quality, and decision support in a Rwandan organisation.",
+      "evidence": [
+        "SQL and data reporting",
+        "Dashboard and automation work",
+        "Operational KPI thinking",
+        "Data-quality controls and documentation"
+      ],
+      "gaps": [
+        "Farm360 and aquaculture domain knowledge",
+        "The junior title may underuse your leadership and engineering experience",
+        "Confirm the physical location is practical"
+      ],
+      "prep": {
+        "resume": [
+          "Lead with Power BI/SQL/Excel reporting and operational decision support",
+          "Keep the narrative practical and avoid overemphasising advanced AI"
+        ],
+        "proof": [
+          "A sanitized KPI dashboard",
+          "A data-quality and forecasting example"
+        ],
+        "refresh": [
+          "Power BI data modelling, SQL Server, and Excel",
+          "Operational forecasting and single-source-of-truth design"
+        ],
+        "interview": [
+          "How do you validate operational data?",
+          "How would you design a production KPI dashboard?",
+          "How do you handle conflicting source records?"
+        ],
+        "next": [
+          "Apply before the 20 Aug deadline only if Nyamasheke is workable",
+          "Prepare CV, application letter, certificates, and ID/passport copy",
+          "Use the employer careers page for the final submission route"
+        ]
+      },
+      "sourceLabel": "Kivu Choice careers",
+      "sourceUrl": "https://www.kivuchoice.com/careers",
+      "applyUrl": "https://www.kivuchoice.com/careers",
+      "lastVerified": "2026-08-18",
+      "sourceNote": "The employer page lists the role and deadline. Apply through the employer instructions, not a third-party job mirror."
+    },
+    {
+      "id": "zipline-autonomy-triage-watch",
+      "company": "Zipline",
+      "title": "Autonomy Triage Operations Engineer - Rwanda",
+      "status": "watch",
+      "fitScore": 98,
+      "eligibility": "likely",
+      "location": "Kigali, Rwanda",
+      "locationFilters": [
+        "rwanda",
+        "africa"
+      ],
+      "workMode": "Rwanda based",
+      "deadline": "Closed in the freshest listing check; watch the employer roles page",
+      "compensation": "Not published",
+      "workRights": "The listing required legal eligibility to work in Rwanda.",
+      "families": [
+        "UAV",
+        "autonomy triage",
+        "telemetry",
+        "reliability",
+        "operations"
+      ],
+      "familyFilters": [
+        "uav",
+        "testing",
+        "data"
+      ],
+      "skills": [
+        "Telemetry",
+        "logs",
+        "incident triage",
+        "Python",
+        "SQL",
+        "autonomy"
+      ],
+      "whyFit": "This is the strongest technical and geographic match found in the research, but the current listing is not active. It is kept as a watch target so a similar role can be recognized quickly.",
+      "evidence": [
+        "UAV and autonomy operations",
+        "Telemetry, issue diagnosis, and technical reporting",
+        "Quality/reliability workflows",
+        "Python, SQL, and cross-functional escalation"
+      ],
+      "gaps": [
+        "No action until a live employer posting appears",
+        "Do not reuse any confidential employer information in an application"
+      ],
+      "prep": {
+        "resume": [
+          "Keep a sanitized autonomy-triage resume version ready",
+          "Describe systems and outcomes without internal names, data, or procedures"
+        ],
+        "proof": [
+          "A generic autonomy incident-triage case study",
+          "A public-safe severity and escalation matrix"
+        ],
+        "refresh": [
+          "Perception, planning, controls, infrastructure, and observability basics",
+          "Clear incident writing"
+        ],
+        "interview": [
+          "How do you triage an ambiguous autonomy issue?",
+          "How do you decide severity?",
+          "How do you identify recurring patterns?"
+        ],
+        "next": [
+          "Monitor the employer roles page",
+          "Do not apply to a closed mirror listing",
+          "Prepare a clean, non-confidential evidence package"
+        ]
+      },
+      "sourceLabel": "Zipline careers / public job listing",
+      "sourceUrl": "https://www.zipline.com/careers",
+      "applyUrl": "https://www.zipline.com/careers",
+      "lastVerified": "2026-08-18",
+      "sourceNote": "The role detail found in the research snapshot is closed. The employer careers page remains the source of truth for a replacement opening."
+    }
+  ]
+}
