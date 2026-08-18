@@ -991,6 +991,341 @@
       "sourceNote": "Verified through the public Lever postings API on this update. The public board confirms the role; read the full source before deciding whether the location is practical."
     },
     {
+      "id": "aechelon-data-annotator-geospatial",
+      "company": "Aechelon Technology",
+      "title": "Data Annotator / Geospatial Annotation Specialist",
+      "status": "active",
+      "fitScore": 86,
+      "eligibility": "conditional",
+      "location": "South San Francisco, California",
+      "locationFilters": [
+        "north-america"
+      ],
+      "workMode": "Hybrid",
+      "deadline": "Rolling; no closing date published",
+      "compensation": "$82,000 - $92,000 per year; no relocation reimbursement stated",
+      "workRights": "The application asks whether legal sponsorship will be required. Confirm sponsorship and any technology-access restrictions before investing heavily.",
+      "families": [
+        "computer vision",
+        "data annotation",
+        "geospatial data",
+        "simulation"
+      ],
+      "familyFilters": [
+        "data",
+        "computer vision",
+        "uav"
+      ],
+      "skills": [
+        "Image annotation",
+        "2D and 3D data",
+        "Segmentation",
+        "Computer vision QA",
+        "Geospatial imagery",
+        "Python",
+        "Jupyter",
+        "Git",
+        "GIS tools",
+        "Photoshop"
+      ],
+      "whyFit": "This is the clearest Aechelon match: it directly values image annotation, segmentation, model-output review, false-positive and false-negative analysis, dataset quality, workflow documentation, and computer-vision training data. Your Zipline annotation leadership and autonomy-data background are highly relevant.",
+      "evidence": [
+        "Annotation technical leadership across 2D imagery, 3D data, and flight video",
+        "Computer-vision and autonomy-data quality workflows",
+        "Guideline development, edge-case handling, and production-readiness reviews",
+        "Engineering foundation in image processing, programming, and embedded systems",
+        "Team leadership and collaboration with modelling and project teams"
+      ],
+      "gaps": [
+        "Confirm advanced Photoshop mask and polygon-tracing experience",
+        "Build evidence with QGIS, ERDAS Imagine, Global Mapper, or an equivalent GIS tool",
+        "Confirm shapefile, GeoPackage, raster, and other geospatial data-format experience",
+        "Resolve U.S. sponsorship, relocation, and any export or customer-access restrictions"
+      ],
+      "prep": {
+        "resume": [
+          "Lead with computer-vision dataset production, annotation quality, and autonomy imagery",
+          "Show the scale and variety of 2D, 3D, and flight-video workflows without confidential metrics",
+          "Describe guideline design, ambiguity resolution, model feedback, and cross-functional delivery"
+        ],
+        "proof": [
+          "A sanitized annotation-quality case study",
+          "A public-safe segmentation or object-detection dataset exercise",
+          "A small geospatial notebook using QGIS or a permitted open dataset"
+        ],
+        "refresh": [
+          "QGIS, raster/vector data, shapefiles, GeoPackages, and coordinate systems",
+          "Segmentation quality, IoU, precision/recall, false positives, and false negatives",
+          "Photoshop masks, polygon tracing, cleanup, and visual-quality workflows"
+        ],
+        "interview": [
+          "How do you maintain annotation consistency across a large team?",
+          "How do you resolve an ambiguous geospatial feature?",
+          "How do you decide whether an automated detection is a false positive?",
+          "How do annotation decisions influence model evaluation and production quality?"
+        ],
+        "next": [
+          "Apply with a computer-vision and annotation-focused CV",
+          "Confirm sponsorship and relocation before accepting a process step",
+          "Add only verified GIS and Photoshop evidence"
+        ]
+      },
+      "sourceLabel": "Aechelon Technology official Greenhouse listing",
+      "sourceUrl": "https://job-boards.greenhouse.io/aechelontechnology/jobs/5078955008",
+      "applyUrl": "https://job-boards.greenhouse.io/aechelontechnology/jobs/5078955008",
+      "lastVerified": "2026-08-18",
+      "sourceNote": "Official Greenhouse posting reviewed on 2026-08-18. The role lists South San Francisco, a California compensation range, no relocation reimbursement, and a sponsorship question."
+    },
+    {
+      "id": "aechelon-associate-systems-integration-engineer",
+      "company": "Aechelon Technology",
+      "title": "Associate Systems Integration Engineer",
+      "status": "active",
+      "fitScore": 78,
+      "eligibility": "conditional",
+      "location": "Orlando, Florida",
+      "locationFilters": [
+        "north-america"
+      ],
+      "workMode": "Customer sites and Orlando/home office; travel expected",
+      "deadline": "Rolling; no closing date published",
+      "compensation": "$85,000 - $95,000 per year; 25-50% travel stated",
+      "workRights": "The application asks about sponsorship and eligibility to obtain security clearance for customer sites. Confirm both before relying on this route.",
+      "families": [
+        "systems integration",
+        "simulation",
+        "software support",
+        "customer engineering"
+      ],
+      "familyFilters": [
+        "testing",
+        "uav",
+        "engineering"
+      ],
+      "skills": [
+        "Systems integration",
+        "Technical troubleshooting",
+        "C and C++",
+        "Python and scripting",
+        "Real-time systems",
+        "Simulation",
+        "Defect tracking",
+        "Customer support"
+      ],
+      "whyFit": "Your Electronics and Telecommunication Engineering degree, embedded/control project, autonomy background, technical issue triage, and cross-functional communication align with integration work. The role is junior-to-associate in title but technically specific, with C/C++, real-time simulation, customer sites, and clearance requirements.",
+      "evidence": [
+        "BSc Engineering in Electronics and Telecommunication Engineering",
+        "Control systems, embedded systems, programming, image processing, and networking coursework",
+        "Arduino voice-controlled wheelchair integration project",
+        "Autonomous-flight operations and technical workflow experience",
+        "Issue documentation, stakeholder communication, and operational problem solving"
+      ],
+      "gaps": [
+        "Confirm C/C++ software-development or integration experience",
+        "No documented OpenGL, Qt, image-generator, or simulator integration experience",
+        "Clarify security-clearance eligibility for customer sites",
+        "Resolve sponsorship, relocation, and 25-50% travel practicality"
+      ],
+      "prep": {
+        "resume": [
+          "Lead with electronics engineering, embedded control, integration, troubleshooting, and autonomy",
+          "Frame the wheelchair project as input-processing-control-actuation integration",
+          "Show customer/stakeholder communication and discrepancy or issue resolution"
+        ],
+        "proof": [
+          "A sanitized system-integration diagram",
+          "A defect reproduction and resolution case study",
+          "A small C/C++ or Python hardware/software integration project"
+        ],
+        "refresh": [
+          "C/C++, debugging, build tools, and Linux scripting",
+          "OpenGL, Qt, real-time simulation, image generators, and display systems",
+          "Requirements traceability, defect reports, and configuration management"
+        ],
+        "interview": [
+          "How do you reproduce a customer-reported integration defect?",
+          "How do you separate an interface problem from an application problem?",
+          "Describe a system you integrated from requirements through testing",
+          "How do you communicate a technical issue to a non-specialist customer?"
+        ],
+        "next": [
+          "Ask about sponsorship and security-clearance eligibility before relying on the role",
+          "Tailor the CV to systems integration and technical support",
+          "Prepare a concise C/C++ and embedded-systems evidence section"
+        ]
+      },
+      "sourceLabel": "Aechelon Technology official Greenhouse listing",
+      "sourceUrl": "https://job-boards.greenhouse.io/aechelontechnology/jobs/4790812008",
+      "applyUrl": "https://job-boards.greenhouse.io/aechelontechnology/jobs/4790812008",
+      "lastVerified": "2026-08-18",
+      "sourceNote": "Official Greenhouse posting reviewed on 2026-08-18. The posting states 25-50% travel and includes a security-clearance eligibility question."
+    },
+    {
+      "id": "aechelon-senior-qa-sdet-fl",
+      "company": "Aechelon Technology",
+      "title": "Senior QA SDET (FL)",
+      "status": "active",
+      "fitScore": 76,
+      "eligibility": "conditional",
+      "location": "Orlando, Florida",
+      "locationFilters": [
+        "north-america"
+      ],
+      "workMode": "Hybrid; up to three days per week in office",
+      "deadline": "Rolling; no closing date published",
+      "compensation": "Not published",
+      "workRights": "The posting requires eligibility to work with export-controlled technology and the application asks about legal sponsorship.",
+      "families": [
+        "QA",
+        "SDET",
+        "test automation",
+        "simulation"
+      ],
+      "familyFilters": [
+        "testing",
+        "python",
+        "data"
+      ],
+      "skills": [
+        "Test strategy",
+        "Python tooling",
+        "Automation frameworks",
+        "Regression and performance testing",
+        "Technical triage",
+        "AI-assisted QA",
+        "Documentation",
+        "CI systems"
+      ],
+      "whyFit": "Your QA leadership, technical data quality, workflow automation, documentation, AI-assisted tooling, and cross-functional coordination align with the role's quality ownership and automation direction. The missing proof is direct 3D simulation testing and senior ownership of Python-based test tooling across complex product areas.",
+      "evidence": [
+        "Annotation quality leadership and standards across multiple data types",
+        "QA, validation, reporting, and workflow automation experience",
+        "Technical issue triage and cross-functional coordination",
+        "Python, data-analysis, image-processing, and engineering foundation",
+        "Experience mentoring and leading distributed contributors"
+      ],
+      "gaps": [
+        "No documented 3D graphics or simulation software testing",
+        "Confirm depth of Python test framework and test-utility development",
+        "Confirm CI/Jenkins, performance, regression, and release-validation examples",
+        "Resolve export-control, sponsorship, and relocation questions"
+      ],
+      "prep": {
+        "resume": [
+          "Lead with quality ownership, automation, technical triage, and process improvement",
+          "Translate annotation QA into validation strategy, coverage, defect prevention, and release confidence",
+          "Highlight practical use of AI tools for scripts, documentation, and test support"
+        ],
+        "proof": [
+          "A Python test utility with clear fixtures, reports, and failure handling",
+          "A sanitized test strategy for a computer-vision or autonomy workflow",
+          "An AI-assisted QA example with human review and reproducible output"
+        ],
+        "refresh": [
+          "pytest, test design, flakiness, performance testing, and regression strategy",
+          "3D graphics and simulation testing concepts",
+          "CI systems, Git, Jira, and technical quality metrics"
+        ],
+        "interview": [
+          "How do you define test strategy for a complex, multi-component feature?",
+          "How do you improve signal quality and reduce flaky tests?",
+          "How do you use AI in QA without losing traceability?",
+          "How do you mentor others while owning a high-risk validation area?"
+        ],
+        "next": [
+          "Apply with a QA/SDET-focused CV",
+          "Confirm export-control eligibility before assuming the role is viable",
+          "Prepare a public-safe Python test automation artifact"
+        ]
+      },
+      "sourceLabel": "Aechelon Technology official Greenhouse listing",
+      "sourceUrl": "https://job-boards.greenhouse.io/aechelontechnology/jobs/5200777008",
+      "applyUrl": "https://job-boards.greenhouse.io/aechelontechnology/jobs/5200777008",
+      "lastVerified": "2026-08-18",
+      "sourceNote": "Official Greenhouse posting reviewed on 2026-08-18. The posting includes an export-controlled technology requirement and a hybrid Orlando arrangement."
+    },
+    {
+      "id": "aechelon-qa-test-engineer-ks",
+      "company": "Aechelon Technology",
+      "title": "QA Test Engineer - KS",
+      "status": "active",
+      "fitScore": 71,
+      "eligibility": "conditional",
+      "location": "Overland Park, Kansas",
+      "locationFilters": [
+        "north-america"
+      ],
+      "workMode": "On-site; five days per week in office",
+      "deadline": "Rolling; no closing date published",
+      "compensation": "Not published; no relocation reimbursement stated",
+      "workRights": "The posting requires eligibility to work with export-controlled technology and the application asks about legal sponsorship.",
+      "families": [
+        "QA",
+        "Python",
+        "test lab",
+        "simulation"
+      ],
+      "familyFilters": [
+        "testing",
+        "python"
+      ],
+      "skills": [
+        "Python test automation",
+        "Jenkins",
+        "Bash",
+        "Test lab operations",
+        "Image-diff testing",
+        "Stress and performance testing",
+        "3D graphics",
+        "Documentation"
+      ],
+      "whyFit": "The role values Python automation, test planning, issue reproduction, documentation, lab ownership, and detailed quality work. Your QA and automation background is relevant, but the direct 3D graphics, image-generator, Jenkins, and test-lab requirements are not yet evidenced.",
+      "evidence": [
+        "QA automation and data-validation workflows",
+        "Python, scripting, reporting, and technical documentation",
+        "Autonomy and computer-vision context",
+        "Structured issue triage and cross-functional problem solving"
+      ],
+      "gaps": [
+        "No documented 3D graphics or image-generator testing",
+        "Confirm Jenkins, Bash, image-diff, and performance-test experience",
+        "No documented ownership of a hardware/software test lab",
+        "Resolve export-control, sponsorship, five-day on-site, and relocation questions"
+      ],
+      "prep": {
+        "resume": [
+          "Lead with Python automation, test design, issue reproduction, and quality reporting",
+          "Show any verified CI, shell, Git, and test-environment maintenance work",
+          "Keep autonomy and computer-vision context prominent"
+        ],
+        "proof": [
+          "A Python automated test suite with reports",
+          "An image-diff or computer-vision regression test using public data",
+          "A test-plan and defect-triage case study"
+        ],
+        "refresh": [
+          "Jenkins, Bash, image-diff testing, performance testing, and test-lab operations",
+          "3D graphics, rendering, simulation, and visual-quality testing",
+          "Export-controlled technology screening questions"
+        ],
+        "interview": [
+          "How would you build a repeatable test for a high-frame-rate visual system?",
+          "How do you reproduce an issue that only appears on specialized hardware?",
+          "How do you distinguish an image-rendering defect from a data defect?"
+        ],
+        "next": [
+          "Apply only if five-day on-site work in Kansas is realistic",
+          "Confirm export-control eligibility and sponsorship before relying on the role",
+          "Submit a QA-focused CV rather than a general technical-lead CV"
+        ]
+      },
+      "sourceLabel": "Aechelon Technology official Greenhouse listing",
+      "sourceUrl": "https://job-boards.greenhouse.io/aechelontechnology/jobs/5025367008",
+      "applyUrl": "https://job-boards.greenhouse.io/aechelontechnology/jobs/5025367008",
+      "lastVerified": "2026-08-18",
+      "sourceNote": "Official Greenhouse posting reviewed on 2026-08-18. The posting states five days per week in the Kansas office, no relocation reimbursement, and an export-controlled technology requirement."
+    },
+    {
       "id": "shield-senior-automated-test-r4461",
       "company": "Shield AI",
       "title": "Senior Engineer, Automated Test (R4461)",
