@@ -1584,6 +1584,85 @@
       "sourceNote": "The employer page lists the role and deadline. Apply through the employer instructions, not a third-party job mirror."
     },
     {
+      "id": "us-embassy-kigali-engineering-technician-bas",
+      "company": "U.S. Embassy Kigali",
+      "title": "Engineering Technician (Building Automated Systems)",
+      "status": "active",
+      "fitScore": 24,
+      "eligibility": "unlikely",
+      "location": "Kigali, Rwanda",
+      "locationFilters": [
+        "rwanda",
+        "africa"
+      ],
+      "workMode": "On-site",
+      "deadline": "2026-08-28",
+      "compensation": "RWF 24,263,003 - RWF 39,639,661 per year",
+      "workRights": "Open to all applicants/all sources. Public Trust background investigation, medical requirements, and ability to start within the stated period apply.",
+      "families": [
+        "facilities engineering",
+        "building automation",
+        "controls"
+      ],
+      "familyFilters": [
+        "engineering",
+        "operations"
+      ],
+      "skills": [
+        "Building automation systems",
+        "Sensors and actuators",
+        "Computer and microprocessor controls",
+        "AutoCAD",
+        "Microsoft Office",
+        "Maintenance diagnostics",
+        "English and Kinyarwanda",
+        "Driver's license"
+      ],
+      "whyFit": "This is a relevant Kigali opportunity in technical operations and computerized control systems, but it is not a close match to the current AI, data, QA, and autonomy profile. It is included so local opportunities with adjacent technical language are visible.",
+      "evidence": [
+        "Autonomy operations and technical issue diagnosis",
+        "Computer-vision, data, QA, and reporting workflows",
+        "Experience working with operational systems and cross-functional teams"
+      ],
+      "gaps": [
+        "No documented five years of building-automation operation and maintenance",
+        "No documented two years maintaining BAS-specific components",
+        "No documented AutoCAD or U.S. building, trade, construction, fire, and safety codes experience",
+        "Confirm the required engineering/control-systems degree equivalency and valid driver's license"
+      ],
+      "prep": {
+        "resume": [
+          "Apply only if you can document the required facilities, controls, or maintenance experience",
+          "Lead with measurable technical troubleshooting and operational reliability evidence"
+        ],
+        "proof": [
+          "Engineering degree and specialized technical-training documentation",
+          "Employment evidence for BAS maintenance, programming, and commercial-building operations",
+          "AutoCAD examples and valid driver's license documentation"
+        ],
+        "refresh": [
+          "Building automation architectures, sensors, actuators, and fault codes",
+          "AutoCAD and facilities maintenance documentation",
+          "Applicable building, fire, electrical, and safety codes"
+        ],
+        "interview": [
+          "Diagnose a sensor, actuator, or controller fault in a live building system",
+          "Explain a preventive-maintenance or reliability-centered-maintenance plan",
+          "Describe how you protect critical building operations during repair"
+        ],
+        "next": [
+          "Review the complete position description with Embassy HR",
+          "Do not claim BAS, AutoCAD, codes, or maintenance experience without evidence",
+          "Submit only if the mandatory experience and education requirements can be demonstrated"
+        ]
+      },
+      "sourceLabel": "U.S. Embassy Kigali / ERA",
+      "sourceUrl": "https://erajobs.state.gov/dos-era/vacancy/viewVacancyDetail.hms?jnum=76808&orgId=21",
+      "applyUrl": "https://erajobs.state.gov/dos-era/vacancy/viewVacancyDetail.hms?jnum=76808&orgId=21",
+      "lastVerified": "2026-08-18",
+      "sourceNote": "Announcement KIGALI-2026-008R. The supplied vacancy text lists an open period of 2026-08-10 through 2026-08-28. Verify the live ERA page before applying."
+    },
+    {
       "id": "zipline-autonomy-triage-watch",
       "company": "Zipline",
       "title": "Autonomy Triage Operations Engineer - Rwanda",
