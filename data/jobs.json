@@ -991,6 +991,98 @@
       "sourceNote": "Verified through the public Lever postings API on this update. The public board confirms the role; read the full source before deciding whether the location is practical."
     },
     {
+      "id": "shield-senior-automated-test-r4461",
+      "company": "Shield AI",
+      "title": "Senior Engineer, Automated Test (R4461)",
+      "status": "active",
+      "fitScore": 64,
+      "eligibility": "conditional",
+      "location": "San Diego, California",
+      "locationFilters": [
+        "north-america"
+      ],
+      "workMode": "Hybrid",
+      "deadline": "Rolling; no closing date published",
+      "compensation": "$114,266 - $171,400 per year, plus bonus, benefits, and equity",
+      "workRights": "The application asks about current U.S. work authorization, future sponsorship, and export-control status. A candidate currently based in Rwanda should expect a work-authorization and export-control review.",
+      "families": [
+        "automated testing",
+        "Python",
+        "CI/CD",
+        "autonomy",
+        "developer tooling"
+      ],
+      "familyFilters": [
+        "testing",
+        "python",
+        "uav",
+        "data"
+      ],
+      "skills": [
+        "Python automation",
+        "Test frameworks",
+        "Log analysis and failure triage",
+        "GitLab CI",
+        "YAML and shell scripting",
+        "Distributed systems testing",
+        "APIs and web UIs",
+        "Linux",
+        "Autonomy and aerospace",
+        "HIL and embedded testing"
+      ],
+      "whyFit": "Shield AI's autonomy and mission-critical testing context is a strong domain match for your Zipline autonomy background, electronics and embedded-systems education, technical issue triage, QA workflows, and automation work. The role remains a senior stretch until the exact years and depth of Python framework, CI/CD, package/build, and distributed-system test experience are documented.",
+      "evidence": [
+        "Autonomous-flight operations and technical data-quality context",
+        "Python, data analysis, QA, validation, reporting, and workflow automation work",
+        "Technical leadership, guidelines, process design, and failure-escalation experience",
+        "BSc in Electronics and Telecommunication Engineering with control, embedded, instrumentation, and programming coursework",
+        "Arduino-based voice-controlled robotics project with control logic, motor-driver circuitry, and testing"
+      ],
+      "gaps": [
+        "Confirm five or more years building Python automation frameworks or developer tooling",
+        "Document package/build and dependency-management systems used",
+        "Document GitLab CI, YAML, shell, asynchronous Python, API/UI testing, and distributed-system testing",
+        "Confirm U.S. work authorization, sponsorship route, relocation readiness, and export-control eligibility",
+        "Do not claim production HIL, Go/TypeScript, or C++ testing without evidence"
+      ],
+      "prep": {
+        "resume": [
+          "Lead with Python automation, QA pipelines, log analysis, failure triage, and autonomy operations",
+          "Translate annotation quality leadership into verification strategy, traceability, defect prevention, and release readiness",
+          "Place electronics, embedded systems, control systems, and the wheelchair prototype in a technical-project section"
+        ],
+        "proof": [
+          "A public-safe Python test harness with fixtures, logs, reports, and failure triage",
+          "A CI pipeline using verified tools, with YAML and shell scripts",
+          "A sanitized autonomy or telemetry test plan and verification matrix",
+          "A systems-testing case study showing a defect, investigation, root cause, and regression test"
+        ],
+        "refresh": [
+          "Asyncio, multiprocessing, parallel test execution, pytest fixtures, and test reporting",
+          "GitLab CI, package management, dependency locking, build artifacts, and Linux troubleshooting",
+          "API/UI testing, distributed systems, simulation, HIL, and traceability",
+          "AI-assisted test generation and log analysis with human review and reproducibility"
+        ],
+        "interview": [
+          "Design a Python test framework for autonomy software, APIs, UI, and telemetry",
+          "Debug a flaky distributed test and distinguish product failure from infrastructure failure",
+          "Explain how to collect logs, triage failures, prevent regressions, and improve test observability",
+          "Describe a technical leadership decision that improved quality without exposing Zipline confidential information"
+        ],
+        "next": [
+          "Answer U.S. work authorization, sponsorship, and export-control questions accurately",
+          "Tailor the CV to automated testing and developer tooling rather than only annotation leadership",
+          "Confirm the exact Python, CI/CD, package/build, and test-automation years before claiming senior-level fit",
+          "Ask Shield AI recruiting whether the role can consider a Rwandan applicant requiring sponsorship and export-control review"
+        ]
+      },
+      "sourceLabel": "Shield AI official Lever listing",
+      "sourceUrl": "https://jobs.lever.co/shieldai/21d73732-e08b-415e-a6ec-b2763b6faaeb",
+      "applyUrl": "https://jobs.lever.co/shieldai/21d73732-e08b-415e-a6ec-b2763b6faaeb/apply",
+      "lastVerified": "2026-08-18",
+      "sourceNote": "Official listing reviewed on 2026-08-18. The role's application includes U.S. work authorization, sponsorship, and export-control questions; submit accurate, candidate-reviewed information."
+    },
+    {
       "id": "shield-autonomy-integration",
       "company": "Shield AI",
       "title": "Autonomy Integration Engineer",
