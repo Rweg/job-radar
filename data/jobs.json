@@ -1588,8 +1588,8 @@
       "company": "U.S. Embassy Kigali",
       "title": "Engineering Technician (Building Automated Systems)",
       "status": "active",
-      "fitScore": 24,
-      "eligibility": "unlikely",
+      "fitScore": 44,
+      "eligibility": "likely",
       "location": "Kigali, Rwanda",
       "locationFilters": [
         "rwanda",
@@ -1618,27 +1618,30 @@
         "English and Kinyarwanda",
         "Driver's license"
       ],
-      "whyFit": "This is a relevant Kigali opportunity in technical operations and computerized control systems, but it is not a close match to the current AI, data, QA, and autonomy profile. It is included so local opportunities with adjacent technical language are visible.",
+      "whyFit": "Your formal Electronics and Telecommunication Engineering degree, technical-secondary Computer Electronics training, control-systems and embedded-systems coursework, and voice-controlled robotics project create a credible technical foundation for this role. The match is still conditional because the vacancy is specifically about building automation and facilities maintenance.",
       "evidence": [
-        "Autonomy operations and technical issue diagnosis",
-        "Computer-vision, data, QA, and reporting workflows",
-        "Experience working with operational systems and cross-functional teams"
+        "BSc with Honours in Engineering, Electronics and Telecommunication Engineering",
+        "Technical-secondary Computer Electronics certificate including Operating Systems/Maintenance and Repair and Electricity and Automation",
+        "University coursework in Control Systems, Advanced Control Systems, Measurement and Instrumentation, Microprocessors, Microcontroller and Embedded Systems, and Industrial Attachment",
+        "Voice-controlled wheelchair prototype using an Arduino Uno, voice-recognition module, motor-driver circuitry, and programmed control logic",
+        "Autonomy operations, technical issue diagnosis, data quality, and cross-functional workflow leadership"
       ],
       "gaps": [
         "No documented five years of building-automation operation and maintenance",
-        "No documented two years maintaining BAS-specific components",
+        "No documented two years maintaining BAS-specific components or three years maintaining large commercial or government buildings",
         "No documented AutoCAD or U.S. building, trade, construction, fire, and safety codes experience",
-        "Confirm the required engineering/control-systems degree equivalency and valid driver's license"
+        "Clarify the exact flight-operations maintenance equipment, dates, and responsibilities; confirm a valid driver's license"
       ],
       "prep": {
         "resume": [
-          "Apply only if you can document the required facilities, controls, or maintenance experience",
-          "Lead with measurable technical troubleshooting and operational reliability evidence"
+          "Lead with the engineering degree, Computer Electronics foundation, control/embedded coursework, and robotics project",
+          "Add only verified flight-operations maintenance responsibilities, equipment, dates, and outcomes"
         ],
         "proof": [
-          "Engineering degree and specialized technical-training documentation",
-          "Employment evidence for BAS maintenance, programming, and commercial-building operations",
-          "AutoCAD examples and valid driver's license documentation"
+          "Engineering degree, transcript, and A2 Computer Electronics certificate",
+          "Voice Controlled Wheelchair project report and academic recommendation",
+          "Employment evidence for any direct maintenance, control-system, or facilities-equipment work",
+          "AutoCAD examples and valid driver's license documentation if available"
         ],
         "refresh": [
           "Building automation architectures, sensors, actuators, and fault codes",
@@ -1653,6 +1656,7 @@
         "next": [
           "Review the complete position description with Embassy HR",
           "Do not claim BAS, AutoCAD, codes, or maintenance experience without evidence",
+          "Ask Embassy HR whether electronics/control-systems education and flight-operations maintenance can satisfy the experience equivalency",
           "Submit only if the mandatory experience and education requirements can be demonstrated"
         ]
       },
@@ -1660,7 +1664,7 @@
       "sourceUrl": "https://erajobs.state.gov/dos-era/vacancy/viewVacancyDetail.hms?jnum=76808&orgId=21",
       "applyUrl": "https://erajobs.state.gov/dos-era/vacancy/viewVacancyDetail.hms?jnum=76808&orgId=21",
       "lastVerified": "2026-08-18",
-      "sourceNote": "Announcement KIGALI-2026-008R. The supplied vacancy text lists an open period of 2026-08-10 through 2026-08-28. Verify the live ERA page before applying."
+      "sourceNote": "Announcement KIGALI-2026-008R. The supplied vacancy text lists an open period of 2026-08-10 through 2026-08-28. Fit was reassessed after reviewing the degree certificate, transcript, A2 certificate, academic recommendation, and wheelchair project report. Verify the live ERA page before applying."
     },
     {
       "id": "zipline-autonomy-triage-watch",
