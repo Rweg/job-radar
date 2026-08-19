@@ -50,6 +50,10 @@
     return "Eligibility needs verification";
   }
 
+  function isCompleted(job) {
+    return state.applicationState[job.id]?.status === "completed";
+  }
+
   function deadlineMeta(job) {
     if (!job.deadline || !/\d{4}/.test(job.deadline)) {
       return { label: job.deadline || "Rolling / no date published", className: "deadline-rolling" };
@@ -74,6 +78,11 @@
     const searchable = [job.title, job.company, job.location, job.whyFit, ...(job.skills || []), ...(job.families || [])].join(" ").toLowerCase();
 
     if (search && !searchable.includes(search)) return false;
+    if (state.view === "completed") {
+      if (!isCompleted(job)) return false;
+    } else if (isCompleted(job)) {
+      return false;
+    }
     if (status !== "all" && job.status !== status) return false;
     if (location !== "all" && !(job.locationFilters || []).includes(location)) return false;
     if (family !== "all" && !(job.familyFilters || []).includes(family)) return false;
@@ -112,6 +121,7 @@
           <div class="job-footer-left">
             <a href="${escapeHTML(job.applyUrl)}" target="_blank" rel="noopener noreferrer">Open application</a>
             <button class="text-button details-button" type="button" data-id="${escapeHTML(job.id)}">View preparation</button>
+            <button class="text-button complete-button" type="button" data-complete-id="${escapeHTML(job.id)}">${isCompleted(job) ? "Restore to active list" : "Mark applied & hide"}</button>
           </div>
           <div class="job-footer-right">
             <span class="muted">Verified ${escapeHTML(job.lastVerified)}</span>
@@ -127,14 +137,15 @@
     $("#job-list").innerHTML = jobs.map(jobCard).join("");
     $("#result-count").textContent = `${jobs.length} ${jobs.length === 1 ? "job" : "jobs"}`;
     $("#empty-state").hidden = jobs.length !== 0;
-    $("#results-title").textContent = state.view === "priority" ? "Best current matches" : state.view === "saved" ? "Saved jobs" : "Filtered opportunities";
-    $("#metric-open").textContent = state.jobs.filter((job) => job.status === "active").length;
-    $("#metric-high-fit").textContent = state.jobs.filter((job) => job.status === "active" && job.fitScore >= 80).length;
-    $("#metric-rwanda").textContent = state.jobs.filter((job) => job.status === "active" && ((job.locationFilters || []).includes("rwanda") || (job.locationFilters || []).includes("africa"))).length;
+    $("#results-title").textContent = state.view === "priority" ? "Best current matches" : state.view === "saved" ? "Saved jobs" : state.view === "completed" ? "Completed applications" : "Filtered opportunities";
+    $("#metric-open").textContent = state.jobs.filter((job) => job.status === "active" && !isCompleted(job)).length;
+    $("#metric-high-fit").textContent = state.jobs.filter((job) => job.status === "active" && !isCompleted(job) && job.fitScore >= 80).length;
+    $("#metric-rwanda").textContent = state.jobs.filter((job) => job.status === "active" && !isCompleted(job) && ((job.locationFilters || []).includes("rwanda") || (job.locationFilters || []).includes("africa"))).length;
     $("#metric-saved").textContent = state.saved.size;
     $("#saved-count").textContent = state.saved.size;
-    $("#priority-count").textContent = state.jobs.filter((job) => job.status === "active" && job.fitScore >= 80).length;
-    $("#source-summary").textContent = `${state.jobs.length} curated records across ${new Set(state.jobs.map((job) => job.company)).size} employers and source families. Active records are checked against the listed source; unknowns remain visible as unknowns.`;
+    $("#priority-count").textContent = state.jobs.filter((job) => job.status === "active" && !isCompleted(job) && job.fitScore >= 80).length;
+    $("#completed-count").textContent = state.jobs.filter(isCompleted).length;
+    $("#source-summary").textContent = `${state.jobs.length} curated records across ${new Set(state.jobs.map((job) => job.company)).size} employers and source families. Completed applications are hidden locally from the active views.`;
     bindCardEvents();
   }
 
@@ -148,6 +159,18 @@
       });
     });
     document.querySelectorAll(".details-button").forEach((button) => button.addEventListener("click", () => openDialog(button.dataset.id)));
+    document.querySelectorAll("[data-complete-id]").forEach((button) => button.addEventListener("click", () => toggleCompleted(button.dataset.completeId)));
+  }
+
+  function toggleCompleted(id) {
+    if (isCompleted({ id })) {
+      delete state.applicationState[id];
+    } else {
+      state.applicationState[id] = { status: "completed", completedAt: new Date().toISOString() };
+    }
+    saveLocalState();
+    if (state.activeJob?.id === id) $("#job-dialog").close();
+    render();
   }
 
   function list(items) {
@@ -161,6 +184,7 @@
     $("#dialog-company").textContent = `${job.company} · ${job.status === "active" ? "current record" : "watchlist record"}`;
     $("#dialog-title").textContent = job.title;
     $("#dialog-location").textContent = `${job.location} · ${job.workMode}`;
+    const completed = isCompleted(job);
     $("#dialog-body").innerHTML = `<section class="detail-section">
         <h3>Decision snapshot</h3>
         <div class="detail-row"><strong>Technical fit</strong><span>${escapeHTML(job.fitScore)}/100</span></div>
@@ -178,7 +202,7 @@
         <div class="prep-box"><h4>Technical refresh</h4><ul>${list(job.prep.refresh)}</ul></div>
         <div class="prep-box"><h4>Interview themes</h4><ul>${list(job.prep.interview)}</ul></div>
       </div></section>
-      <section class="detail-section"><h3>My next action</h3><ul>${list(job.prep.next)}</ul><label><span class="sr-only">Private notes</span><textarea class="notes-input" id="notes-${escapeHTML(job.id)}" placeholder="Private notes stored only in this browser">${escapeHTML(state.notes[job.id] || "")}</textarea></label><div class="dialog-actions"><a class="button" href="${escapeHTML(job.applyUrl)}" target="_blank" rel="noopener noreferrer">Open application</a><a class="button button-quiet" href="${escapeHTML(job.sourceUrl)}" target="_blank" rel="noopener noreferrer">Open source</a><button class="save-button ${state.saved.has(job.id) ? "is-saved" : ""}" type="button" id="dialog-save">${state.saved.has(job.id) ? "Saved" : "Save job"}</button></div><p class="source-line">Source: <a href="${escapeHTML(job.sourceUrl)}" target="_blank" rel="noopener noreferrer">${escapeHTML(job.sourceLabel)}</a>. Last checked ${escapeHTML(job.lastVerified)}. ${escapeHTML(job.sourceNote || "")}</p></section>`;
+      <section class="detail-section"><h3>My next action</h3><ul>${list(job.prep.next)}</ul><label><span class="sr-only">Private notes</span><textarea class="notes-input" id="notes-${escapeHTML(job.id)}" placeholder="Private notes stored only in this browser">${escapeHTML(state.notes[job.id] || "")}</textarea></label><div class="dialog-actions"><a class="button" href="${escapeHTML(job.applyUrl)}" target="_blank" rel="noopener noreferrer">Open application</a><a class="button button-quiet" href="${escapeHTML(job.sourceUrl)}" target="_blank" rel="noopener noreferrer">Open source</a><button class="save-button ${state.saved.has(job.id) ? "is-saved" : ""}" type="button" id="dialog-save">${state.saved.has(job.id) ? "Saved" : "Save job"}</button><button class="complete-button" type="button" id="dialog-complete">${completed ? "Restore to active list" : "Mark applied & hide"}</button></div><p class="source-line">Source: <a href="${escapeHTML(job.sourceUrl)}" target="_blank" rel="noopener noreferrer">${escapeHTML(job.sourceLabel)}</a>. Last checked ${escapeHTML(job.lastVerified)}. ${escapeHTML(job.sourceNote || "")}</p></section>`;
     $("#job-dialog").showModal();
     $("#dialog-save").addEventListener("click", () => {
       if (state.saved.has(job.id)) state.saved.delete(job.id); else state.saved.add(job.id);
@@ -186,6 +210,7 @@
       openDialog(job.id);
       render();
     });
+    $("#dialog-complete").addEventListener("click", () => toggleCompleted(job.id));
     $("#notes-" + job.id).addEventListener("input", (event) => {
       state.notes[job.id] = event.target.value;
       saveLocalState();

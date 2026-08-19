@@ -105,6 +105,8 @@ h3 { font-size: 1.1rem; }
 .job-footer a, .text-button { font-size: 0.79rem; font-weight: 800; }
 .text-button { border: 0; background: transparent; color: var(--blue); padding: 4px 0; }
 .text-button:hover { text-decoration: underline; }
+.complete-button { border: 1px solid var(--teal); background: var(--teal-soft); color: var(--teal); border-radius: 4px; padding: 7px 9px; font-size: 0.76rem; font-weight: 800; }
+.complete-button:hover { background: #d2eee8; }
 .save-button { border: 1px solid var(--line); background: white; color: var(--muted); border-radius: 4px; padding: 6px 8px; font-size: 0.76rem; font-weight: 800; }
 .save-button.is-saved { color: var(--navy); border-color: var(--navy); background: var(--blue-soft); }
 .empty-state { border: 1px dashed var(--line); text-align: center; padding: 44px 25px; background: white; }
